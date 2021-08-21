@@ -1,0 +1,36 @@
+tasks:
+  dragon1:
+    type: "mobkillingcertain"
+    amount: 3
+    mob: GHAST
+
+display:
+  name: "&cПоиск гастов"
+  lore-normal:
+    - "&cОтправляйтесь в ад и найдите гастов"
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 3х гастов."
+    - ""
+    - '&eПовторяеммый'
+    - ""
+    - "&7Награда:"
+    - "&7 - 50 Gems."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {dragon1:progress}/3 убийств."
+  type: "GHAST_TEAR"
+
+rewards:
+  - "addbalance {player} 50"
+
+options:
+  category: "dragon"
+  requires:
+    - ""
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 600
+  sort-order: 1

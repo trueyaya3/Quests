@@ -1,0 +1,35 @@
+tasks:
+
+  playtime:
+    type: "playtime"
+    minutes: 2400
+
+display:
+  name: "&fЯ тут свой"
+  lore-normal:
+    - "&cОсвоиться  на сервере"
+    - ""
+    - "&7Требования:"
+    - "&7 - Пробыть в регионе 40 чаов."
+    - ""
+    - "&7Награда:"
+    - "&7 - 500 Gems."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {playtime:progress}/2400 минут."
+  type: "DIAMOND"
+
+rewards:
+  - "addbalance {player} 500"
+  - "lp user {player} parent add noNooby"
+
+options:
+  category: "start"
+  requires:
+    - "start5"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 6

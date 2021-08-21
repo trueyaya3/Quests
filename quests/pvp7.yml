@@ -1,0 +1,43 @@
+tasks:
+  pvp7:
+    type: "playerkilling"
+    amount: 40
+  playtime:
+    type: "playtime"
+    minutes: 150
+
+display:
+  name: "&cPVP VII (Игроки и выши)"
+  lore-normal:
+    - "&cУбийство игроков"
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 40х игроков."
+    - ""
+    - '&eПовторяеммый'
+    - ""
+    - "&7Награда:"
+    - "&7 - Тотем"
+    - "&7 - Золотое яблоко"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {pvp7:progress}/40 килов."
+    - "&7 - {playtime:progress}/150 минут."
+  type: "GOLDEN_APPLE"
+
+rewards:
+  - "give {player} minecraft:enchanted_golden_apple 1"
+  - "give {player} minecraft:totem_of_undying 1"
+  - "effect give {player} minecraft:glowing 5 1"
+
+options:
+  category: "pvp"
+  permission-required: true
+  requires:
+    - "pvp6"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 1000
+  sort-order: 7

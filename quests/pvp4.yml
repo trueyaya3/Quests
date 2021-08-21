@@ -1,0 +1,37 @@
+tasks:
+  pvp4:
+    type: "playerkilling"
+    amount: 8
+
+display:
+  name: "&cPVP IV"
+  lore-normal:
+    - "&cУбийство игроков"
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 8х игроков."
+    - ""
+    - '&eПовторяеммый'
+    - ""
+    - "&7Награда:"
+    - "&7 - 40 Gems."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {pvp4:progress}/8 килов."
+    - ""
+  type: "IRON_SWORD"
+
+rewards:
+  - "addbalance {player} 40"
+  - "effect give {player} minecraft:glowing 5 1"
+
+options:
+  category: "pvp"
+  requires:
+    - "pvp3"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 600
+  sort-order: 4

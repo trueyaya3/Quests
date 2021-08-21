@@ -1,0 +1,68 @@
+tasks:
+  walking:
+    type: "walking"
+    distance: 5000
+    worlds:
+      - "world_the_end"
+  playtime:
+    type: "playtime"
+    minutes: 120
+    worlds:
+      - "world_the_end"
+  mobkillingShulker:
+    type: "mobkillingcertain"
+    amount: 20
+    mob: SHULKER
+    worlds:
+      - "world_the_end"
+  mobkillingEnderman:
+    type: "mobkillingcertain"
+    amount: 30
+    mob: ENDERMAN
+    worlds:
+      - "world_the_end"
+  building:
+    type: "blockplace"
+    amount: 1000
+    worlds:
+      - "world_the_end"
+
+
+display:
+  name: "&cПоиск шалкеров II"
+  lore-normal:
+    - "&cОтправляйтесь в энд и убей несколько шалкеров"
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 20 шалкеров."
+    - "&7 - Пробыть в энде 120 минут минимум."
+    - "&7 - Пробежать не меньше 5000 метров."
+    - "&7 - Построить дороги к островам 1000 блоков."
+    - "&7 - Убить 20 ендерменов."
+    - ""
+    - "&7Награда:"
+    - "&7 - 500 Gems."
+    - "&7 - 3 Шалкер."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {walking:progress}/5000 метров."
+    - "&7 - {playtime:progress}/120 минут."
+    - "&7 - {mobkillingShulker:progress}/20 убийств шалкеров."
+    - "&7 - {mobkillingEnderman:progress}/30 убийств эндерменов."
+    - "&7 - {building:progress}/1000 блоков."
+
+  type: "SHULKER_SHELL"
+
+rewards:
+  - "addbalance {player} 500"
+  - "give {player} minecraft:shulker_box{display:{Name:'[{\"text\":\"Шалкер \",\"bold\":true,\"color\":\"red\"}]'}} 3"
+options:
+  category: "end"
+  requires:
+    - "end1"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 600
+  sort-order: 2

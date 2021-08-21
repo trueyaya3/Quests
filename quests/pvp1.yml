@@ -1,0 +1,38 @@
+tasks:
+  pvp1:
+    type: "playerkilling"
+    amount: 3
+
+display:
+  name: "&cPVP I"
+  lore-normal:
+    - "&cУбийство игроков"
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 3х игроков."
+    - ""
+    - '&eПовторяеммый'
+    - ""
+
+    - "&7Награда:"
+    - "&7 - 10 Gems."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {pvp1:progress}/3 килов."
+    - ""
+  type: "WOODEN_SWORD"
+
+rewards:
+  - "addbalance {player} 10"
+  - "effect give {player} minecraft:glowing 5 1"
+
+options:
+  category: "pvp"
+  requires:
+    - ""
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 100
+  sort-order: 1

@@ -1,0 +1,66 @@
+tasks:
+  walking:
+    type: "walking"
+    distance: 10000
+    worlds:
+      - "world_the_end"
+  playtime:
+    type: "playtime"
+    minutes: 120
+    worlds:
+      - "world_the_end"
+  mobkillingShulker:
+    type: "mobkillingcertain"
+    amount: 20
+    mob: SHULKER
+    worlds:
+      - "world_the_end"
+  mobkillingEnderman:
+    type: "mobkillingcertain"
+    amount: 5
+    mob: ENDERMAN
+    worlds:
+      - "world_the_end"
+display:
+  name: "&cПоиск шалкеров обычное донатное дело"
+  lore-normal:
+    - "&cОтправляйтесь в энд и убей несколько шалкеров"
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 10 шалкеров."
+    - "&7 - Пробыть в энде 2 чаосв."
+    - "&7 - Пробежать не меньше 10 000 метров."
+    - ""
+    - '&eПовторяеммый'
+    - ""
+
+    - "&7Награда:"
+    - "&7 - 100 Gems."
+    - "&7 - 2 Шалкер."
+
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {walking:progress}/10000 метров."
+    - "&7 - {playtime:progress}/120 минут."
+    - "&7 - {mobkillingShulker:progress}/20 убийств."
+    - "&7 - {mobkillingEnderman:progress}/5 убийств."
+
+  type: "ELYTRA"
+
+rewards:
+  - "addbalance {player} 100"
+  - "give {player} minecraft:shulker_box 2"
+  - "give {player} minecraft:elytra 1"
+  -
+options:
+  category: "end"
+  requires:
+    - "end4"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 600
+  sort-order: 5
+  permission-required: true
+

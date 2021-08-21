@@ -1,0 +1,35 @@
+tasks:
+  start1:
+    type: "walking"
+    distance: 500
+    worlds:
+      - "world"
+display:
+  name: "&fПрячемся I"
+  lore-normal:
+    - "&cПокиньте спавн"
+    - ""
+    - "&7Требования:"
+    - "&7 - Пробежать 500 блоков."
+    - ""
+    - "&7Награда:"
+    - "&7 - 20 Gems."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {start1:progress}/500 блоков."
+    - "&7 - Мир"
+  type: "DIRT"
+
+rewards:
+  - "addbalance {player} 20"
+
+options:
+  category: "start"
+  requires:
+    - ""
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1

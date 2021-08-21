@@ -1,0 +1,37 @@
+tasks:
+  dragon2:
+    type: "mobkillingcertain"
+    amount: 1
+    mob: ENDER_DRAGON
+
+display:
+  name: "&cУбийство дракона"
+  lore-normal:
+    - "&cОтправляйтесь в край и убейте дракона"
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 1 дракона."
+    - ""
+    - '&eПовторяеммый'
+    - ""
+    - "&7Награда:"
+    - "&7 - 100 Gems."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {dragon2:progress}/1 убийств."
+  type: "DRAGON_HEAD"
+
+rewards:
+  - "addbalance {player} 100"
+  - "give {player} minecraft:experience_bottle 200"
+
+options:
+  category: "dragon"
+  requires:
+    - "dragon1"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 600
+  sort-order: 2

@@ -1,0 +1,36 @@
+tasks:
+  mining:
+    type: "blockbreak"
+    amount: 40
+    worlds:
+      - "world"
+
+display:
+  name: "&fПрячемся IV"
+  lore-normal:
+    - "&cВыкопайте свою первую землянку"
+    - ""
+    - "&7Требования:"
+    - "&7 - Сломать 40 блоков."
+    - ""
+    - "&7Награда:"
+    - "&7 - 100 Gems."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {mining:progress}/40 блоков."
+    - "&7 - Мир"
+  type: "DIRT"
+
+rewards:
+  - "addbalance {player} 100"
+
+options:
+  category: "start"
+  requires:
+    - "start3"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 5
