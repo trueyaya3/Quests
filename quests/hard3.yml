@@ -43,7 +43,7 @@ display:
   type: "SPONGE"
 
 rewards:
-  - "addbalance {player} 700"
+  - "addbalance {player} 1500"
   - "give {player} minecraft:tridient{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Трезубей посейдона \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:piercing,lvl:7},{id:riptide,lvl:3}]} 1"
 
 options:
