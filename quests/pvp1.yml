@@ -2,37 +2,45 @@ tasks:
   pvp1:
     type: "playerkilling"
     amount: 3
+  expearntask:
+    type: "expearn"
+    amount: 469                            # amount of experience earned
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+   - "world"
 
 display:
-  name: "&cPVP I"
+  name: "&cАдаптация"
   lore-normal:
     - "&cУбийство игроков"
     - ""
     - "&7Требования:"
     - "&7 - Убить 3х игроков."
+    - "&7 - Накопить 15 уровней"
     - ""
-    - '&eПовторяеммый'
+    - '&eНеповторяемый'
     - ""
 
     - "&7Награда:"
-    - "&7 - 10 Gems."
+    - "&7 - 100 Gems."
+    - "&7 - Золотое яблоко."
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {pvp1:progress}/3 килов."
-    - ""
+    - "&7 - {pvp1:progress}/3 киллов."
+    - "&7 - {expearntask:progress}/15 уровней"
   type: "WOODEN_SWORD"
 
 rewards:
-  - "addbalance {player} 10"
+  - "addbalance {player} 100"
   - "effect give {player} minecraft:glowing 5 1"
+  - "give {player} minecraft:golden_apple 1"
 
 options:
   category: "pvp"
   requires:
     - ""
-  repeatable: true
+  repeatable: false
   cooldown:
     enabled: true
-    time: 100
+    time: 1400
   sort-order: 1

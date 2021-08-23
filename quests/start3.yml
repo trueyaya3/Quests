@@ -1,28 +1,28 @@
 tasks:
   start3:
     type: "walking"
-    distance: 2000                       # distance in block travelled
+    distance: 5000                       # distance in block travelled
     worlds:
       - "world"
 display:
-  name: "&fПрячемся III"
+  name: "&fЖильё"
   lore-normal:
-    - "&cПокиньше пределы 2к блоков от спавна"
+    - "&cПокиньте пределы 5к блоков от спавна"
     - ""
     - "&7Требования:"
-    - "&7 - Пробежать 2000 блоков."
+    - "&7 - Пробежать 5000 блоков."
     - ""
     - "&7Награда:"
-    - "&7 - 50 Gems."
+    - "&7 - 100 Gems."
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {start3:progress}/2000 блоков."
+    - "&7 - {start3:progress}/5000 блоков."
     - "&7 - Мир"
   type: "DIRT"
 
 rewards:
-  - "addbalance {player} 50"
+  - "addbalance {player} 100"
 
 options:
   category: "start"

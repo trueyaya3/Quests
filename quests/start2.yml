@@ -4,25 +4,31 @@ tasks:
     amount: 10
     worlds:
       - "world"
+  fishingtask:
+    type: "fishing"
+    amount: 10                            
+    worlds:                               
+      - "world"
 display:
-  name: "&fПрячемся II"
+  name: "&fПервая добыча"
   lore-normal:
     - "&cЗапаситесь едой"
     - ""
     - "&7Требования:"
-    - "&7 - Убейте 10 животных."
+    - "&7 - Убейте 10 животных.\nВыловите удочкой 10 рыб."
     - ""
     - "&7Награда:"
-    - "&7 - 40 Gems."
+    - "&7 - 70 Gems."
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {start2:progress}/10 блоков."
+    - "&7 - {start2:progress}/10 мобов."
+    - "&7 - {fishingtask:progress}/10 рыб."
     - "&7 - Мир"
   type: "BEEF"
 
 rewards:
-  - "addbalance {player} 40"
+  - "addbalance {player} 70"
 
 options:
   category: "start"

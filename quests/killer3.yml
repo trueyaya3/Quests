@@ -4,16 +4,22 @@ tasks:
     amount: 1000
   playtime:
     type: "playtime"
-    minutes: 5600
+    minutes: 3000
+  dealdamagetask:
+    type: "dealdamage"
+    amount: 7000                          # amount of damage inflicted (HP)
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+     - "world"
 
 display:
-  name: "Убийца III (Игроки и выши)"
+  name: "Адольф.."
   lore-normal:
     - "&cУбийство игроков"
     - ""
     - "&7Требования:"
     - "&7 - Убить 1000 игроков."
-    - "&7 - Пробыть в регионе 95 чаов."
+    - "&7 - Пробыть в регионе 50 часов."
+    - "&7 - Нанести 7000 урона"
     - ""
     - "&7Награда:"
     - "&7 - 2000 Gems."
@@ -22,7 +28,8 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - {killer3:progress}/1000 килов."
-    - "&7 - {playtime:progress}/5600 минут."
+    - "&7 - {playtime:progress}/3000 минут."
+    - "&7 - {dealdamagetask:progress}/7000 урона."
   type: "BOW"
 
 rewards:

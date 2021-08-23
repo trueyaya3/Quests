@@ -33,14 +33,14 @@
 categories:
   start:
     display:
-      name: "&fНачало"
+      name: "&fПервые шаги"
       lore:
       type: "LEATHER_BOOTS"
   pvp:
     display:
-      name: "&cPvp"
+      name: "&cНасилие"
       lore:
-        - '&7Повторяемый квест'
+        - '&7Возобновляемый квест'
       type: "IRON_SWORD"
   kills:
     display:
@@ -48,15 +48,15 @@ categories:
       type: "NETHERITE_SWORD"
   end:
     display:
-      name: "&5Энд города"
+      name: "&5Начало конца"
       lore:
-        - '&7Повторяемый квест'
+        - '&7Возобновляемый квест'
       type: "SHULKER_SHELL"
   dragon:
     display:
-      name: "&cУбийца дракона"
+      name: "&cАд, Драконы и гасты"
       lore:
-        - '&7Повторяемый квест'
+        - '&7Возобновляемый квест'
       type: "DRAGON_HEAD"
 #  common:
 #    display:

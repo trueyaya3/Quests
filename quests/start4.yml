@@ -1,29 +1,37 @@
 tasks:
   mining:
     type: "blockbreak"
-    amount: 40
+    amount: 100
     worlds:
       - "world"
-
+  dpickaxetask:
+    type: "crafting"
+    item: DIAMOND_PICKAXE                         # name of item (can be id or minecraft name)
+    amount: 1                             # amount of item needed
+    data: 0                               # (OPTIONAL) data code
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+     - "world"
 display:
-  name: "&fПрячемся IV"
+  name: "&fИгра в прятки"
   lore-normal:
     - "&cВыкопайте свою первую землянку"
     - ""
     - "&7Требования:"
-    - "&7 - Сломать 40 блоков."
+    - "&7 - Сломать 100 блоков."
+    - "&7 - Создать первую алмазную кирку"
     - ""
     - "&7Награда:"
-    - "&7 - 100 Gems."
+    - "&7 - 130 Gems."
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {mining:progress}/40 блоков."
+    - "&7 - {mining:progress}/100 блоков."
+    - "&7 - {dpickaxetask:progress}/1 кирка."
     - "&7 - Мир"
   type: "DIRT"
 
 rewards:
-  - "addbalance {player} 100"
+  - "addbalance {player} 130"
 
 options:
   category: "start"

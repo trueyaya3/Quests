@@ -4,8 +4,12 @@ tasks:
     amount: 500
   playtime:
     type: "playtime"
-    minutes: 2400
-
+    minutes: 1200
+  dealdamagetask:
+    type: "dealdamage"
+    amount: 3000                          # amount of damage inflicted (HP)
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+     - "world"
 display:
   name: "Убийца II"
   lore-normal:
@@ -13,23 +17,26 @@ display:
     - ""
     - "&7Требования:"
     - "&7 - Убить 500 игроков."
-    - "&7 - Пробыть в регионе 40 чаов."
+    - "&7 - Пробыть в регионе 20 часов."
+    - "&7 - Нанести 3000 единиц урона"
     - ""
     - "&7Награда:"
     - "&7 - 1000 Gems."
     - "&7 - Меч"
+    - "&7 - Золотое яблоко"
   lore-started:
     - ""
     - "&7Прогресс:"
     - "&7 - {killer2:progress}/500 килов."
-    - "&7 - {playtime:progress}/2400 минут."
+    - "&7 - {playtime:progress}/1200 минут."
+    - "&7 - {dealdamagetask:progress}/3000 урона."
   type: "NETHERITE_SWORD"
 
 rewards:
   - "addbalance {player} 1000"
   - "give {player} minecraft:netherite_sword{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Меч убийца \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}]'}} 1"
   - "effect give {player} minecraft:glowing 5 1"
-
+  - "give {player} minecraft:enchanted_golden_apple 1"
 options:
   category: "kills"
   requires:

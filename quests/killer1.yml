@@ -1,28 +1,35 @@
 tasks:
   killer1:
     type: "playerkilling"
-    amount: 50
+    amount: 70
   playtime:
     type: "playtime"
-    minutes: 2400
+    minutes: 1200
+  dealdamagetask:
+    type: "dealdamage"
+    amount: 700                           # amount of damage inflicted (HP)
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+     - "world"
 
 display:
-  name: "Убийца I"
+  name: "Маньячество"
   lore-normal:
     - "&cУбийство игроков"
     - ""
     - "&7Требования:"
-    - "&7 - Убить 50 игроков."
-    - "&7 - Пробыть на сервере 40 чаов."
+    - "&7 - Убить 70 игроков."
+    - "&7 - Пробыть на сервере 20 часов."
+    - "&7 - Нанести 700 урона."
     - ""
-    - "&500:"
+    - "&Награды:"
     - "&7 - 500 Gems."
     - "&7 - Меч"
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {killer1:progress}/50 килов."
-    - "&7 - {playtime:progress}/2400 минут."
+    - "&7 - {killer1:progress}/70 килов."
+    - "&7 - {playtime:progress}/1200 минут."
+    - "&7 - {dealdamagetask:progress}/700 урона."
   type: "DIAMOND_SWORD"
 
 rewards:

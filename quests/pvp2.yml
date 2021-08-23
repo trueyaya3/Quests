@@ -1,35 +1,45 @@
 tasks:
   pvp2:
     type: "playerkilling"
-    amount: 4
+    amount: 7
+  expearntask:
+    type: "expearn"
+    amount: 1395                            # amount of experience earned
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+   - "world"
 display:
-  name: "&cPVP II"
+  name: "&cОсваиваемся"
   lore-normal:
     - "&cУбийство игроков"
+    - "&cПолучение опыта"
     - ""
     - "&7Требования:"
-    - "&7 - Убить 4х игроков."
+    - "&7 - Убить 7х игроков."
+    - "&7 - Собрать 30 уровней"
     - ""
-    - '&eПовторяеммый'
+    - '&eНеповторяеммый'
     - ""
     - "&7Награда:"
-    - "&7 - 10 Gems."
+    - "&7 - 150 Gems."
+    - "&7 - 10 Алмазов."
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {pvp2:progress}/4 килов."
+    - "&7 - {pvp2:progress}/7 киллов."
+    - "&7 - {expearntask:progress}/30 уровней"
     - ""
   type: "STONE_SWORD"
 
 rewards:
-  - "addbalance {player} 10"
+  - "addbalance {player} 150"
   - "effect give {player} minecraft:glowing 5 1"
+  - "give {player} minecraft:diamond 10"
 
 options:
   category: "pvp"
   requires:
     - "pvp1"
-  repeatable: true
+  repeatable: false
   cooldown:
     enabled: true
     time: 300

@@ -1,36 +1,48 @@
 tasks:
   pvp3:
     type: "playerkilling"
-    amount: 5
+    amount: 15
+  beeftask:
+    type: "inventory"
+    item: NETHERITE_SWORD                        # name of item (can be id or minecraft name)
+    amount: 1                            # amount of item needed
+    data: 0                               # (OPTIONAL) data code
+    remove-items-when-complete: false     # (OPTIONAL) take the items away from the player on completion - default: false
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+     - "world"
 
 display:
-  name: "&cPVP III"
+  name: "&cНасилие - это не выход"
   lore-normal:
     - "&cУбийство игроков"
     - ""
     - "&7Требования:"
-    - "&7 - Убить 5х игроков."
+    - "&7 - Убить 15 игроков."
+    - "&7 - Получить незеритовый меч."
     - ""
-    - '&eПовторяеммый'
+    - '&eНеповторяеммый'
 
     - "&7Награда:"
-    - "&7 - 30 Gems."
+    - "&7 - 170 Gems."
+    - "&7 - Тотем бессмертия"
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {pvp3:progress}/5 килов."
+    - "&7 - {pvp3:progress}/15 киллов."
+    - "&7 - {beeftask:progress}/1 меч."
     - ""
   type: "IRON_SWORD"
 
 rewards:
-  - "addbalance {player} 30"
+  - "addbalance {player} 170"
   - "effect give {player} minecraft:glowing 5 1"
+  - "give {player} minecraft:golden_apple 3"
 
 options:
   category: "pvp"
   requires:
     - "pvp2"
-  repeatable: true
+  repeatable: false
   cooldown:
     enabled: true
     time: 600

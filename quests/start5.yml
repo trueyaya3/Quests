@@ -1,31 +1,33 @@
 tasks:
   start5:
     type: "blockbreakcertain"
-    amount: 3                             # amount of blocks to be brkoen
+    amount: 32                             # amount of blocks to be brkoen
     block: DIAMOND_ORE                             # name of block (can be id or minecraft name)
     reverse-if-placed: true              # (OPTIONAL) if true, blocks of same type placed will reverse progression (prevents silk-touch exploit)
     worlds:
       - "world"
 
 display:
-  name: "&fПрячемся V"
+  name: "&fШахтёр"
   lore-normal:
-    - "&cПервые алмазы"
+    - "&cАлмазная лихорадка"
     - ""
     - "&7Требования:"
-    - "&7 - Получить 3 алмаза."
+    - "&7 - Собрать 32 алмаза."
     - ""
     - "&7Награда:"
-    - "&7 - 100 Gems."
+    - "&7 - 200 Gems."
+    - "&7 - Опыт."
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {start5:progress}/3 блоков."
+    - "&7 - {start5:progress}/32 блоков."
     - "&7 - Мир"
   type: "DIAMOND"
 
 rewards:
-  - "addbalance {player} 100"
+  - "addbalance {player} 200"
+  - "give {player} minecraft:experience_bottle 15"
 
 options:
   category: "start"

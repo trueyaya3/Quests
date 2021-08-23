@@ -1,29 +1,30 @@
 tasks:
   pvp6:
     type: "playerkilling"
-    amount: 20
+    amount: 30
   playtime:
     type: "playtime"
-    minutes: 60
+    minutes: 120
 
 display:
-  name: "&cPVP VI"
+  name: "&cМассовые убийства - это модно"
   lore-normal:
     - "&cУбийство игроков"
     - ""
     - "&7Требования:"
-    - "&7 - Убить 20х игроков."
+    - "&7 - Убить 30 игроков."
+    - "&7 - Отыграть на сервере 2 часа"
     - ""
-    - '&eПовторяеммый'
+    - '&eНеповторяеммый'
     - ""
     - "&7Награда:"
-    - "&7 - 50 Gems."
+    - "&7 - 300 Gems."
     - "&7 - Древние обломки."
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {pvp6:progress}/20 килов."
-    - "&7 - {playtime:progress}/60 минут."
+    - "&7 - {pvp6:progress}/30 киллов."
+    - "&7 - {playtime:progress}/120 минут."
   type: "DIAMOND_SWORD"
 
 rewards:
@@ -35,7 +36,7 @@ options:
   category: "pvp"
   requires:
     - "pvp5"
-  repeatable: true
+  repeatable: false
   cooldown:
     enabled: true
     time: 800
