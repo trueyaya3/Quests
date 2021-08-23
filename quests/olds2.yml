@@ -1,0 +1,48 @@
+tasks:
+mashatask:
+  type: "inventory"
+  item: TURTLE_EGG                        # name of item (can be id or minecraft name)
+  amount: 640                             # amount of item needed
+  data: 0                               # (OPTIONAL) data code
+  remove-items-when-complete: false     # (OPTIONAL) take the items away from the player on completion - default: false
+  worlds:                               # (OPTIONAL) restrict to certain worlds
+   - "world"
+playtime:
+  type: "playtime"
+  minutes: 1200                           # amount of minutes played
+  ignore-afk: false    
+display:
+  name: "&fКВЕСТ ОТ МАШЕНЬКИ ЕЛЕФАНТ "
+  lore-normal:
+    - "&cПотребуются знания биологии"
+    - "&cИ желание смотреть черепашье порно"
+    - ""
+    - "&7Требования:"
+    - "&7 - Собрать в инвентаре 10 стаков"
+    - "&7 - Черепашьих яиц"
+    - "&7 - Провести на сервере 20 часов."
+    - ""
+    - "&7Награда:"
+    - "&7 - 1000 Gems."
+    - "&7 - Черепаший Панцирь Машеньки"
+    
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {mashatask:progress}/640 яиц"
+    - "&7 - {playtime:progress}/1200 минут
+  type: "TURTLE_EGG"
+
+rewards:
+  - "addbalance {player} 1000"
+  - "give {player} minecraft:turtle_helmet{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Черепаший Панцирь Машеньки \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:protection,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:thorns,lvl:3},{id:aqua_affinity,lvl:3},{id:respiration,lvl:1}]} 1"
+
+options:
+  category: "olds"
+  requires:
+   - "olds1"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 4

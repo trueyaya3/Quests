@@ -1,0 +1,45 @@
+tasks:
+bentostask:
+  type: "milking"
+  amount: 5000                            # amount of cows milked
+  worlds:                               # (OPTIONAL) restrict to certain worlds
+   - "world"
+playtime:
+  type: "playtime"
+  minutes: 1200                           # amount of minutes played
+  ignore-afk: false    
+display:
+  name: "&fКВЕСТ ОТ БЕНТОСА"
+  lore-normal:
+    - "&cЧуваки, любите вёдра?)"
+    - "&cА вымя?))"
+    - ""
+    - "&7Требования:"
+    - "&7 - Подоить 5000 коров"
+    - "&7 - Не умереть от старости"
+    - "&7 - Провести на сервере 20 часов."
+    - ""
+    - "&7Награда:"
+    - "&7 - 1000 Gems."
+    - "&7 - Топор Бентоса"
+    
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {bentostask:progress}/5000 коров"
+    - "&7 - {playtime:progress}/1200 минут
+  type: "COW_SPAWN_EGG"
+
+rewards:
+  - "addbalance {player} 1000"
+  - "give {player} minecraft:netherite_axe{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Топор Бентоса \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:silk_touch,lvl:1},{id:sharpness,lvl:6}]} 1"
+
+options:
+  category: "olds"
+  requires:
+   - "olds2"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 4

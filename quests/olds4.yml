@@ -1,0 +1,45 @@
+tasks:
+phantomtask:
+  type: "playerkilling"
+  amount: 4500                           # amount of players killed
+  worlds:                               # (OPTIONAL) restrict to certain worlds
+   - "world"
+playtime:
+  type: "playtime"
+  minutes: 1200                           # amount of minutes played
+  ignore-afk: false    
+display:
+  name: "&fКВЕСТ ОТ ФАНТОМА"
+  lore-normal:
+    - "&cУчитесь пвп"
+    - "&cПридется убивать))"
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 4500 игроков"
+    - "&7 - Не умереть от старости"
+    - "&7 - Провести на сервере 20 часов."
+    - ""
+    - "&7Награда:"
+    - "&7 - 1000 Gems."
+    - "&7 - Меч Фантома"
+    
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {phantomtask:progress}/4500 игроков"
+    - "&7 - {playtime:progress}/1200 минут
+  type: "COW_SPAWN_EGG"
+
+rewards:
+  - "addbalance {player} 1000"
+  - "give {player} minecraft:netherite_sword{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Меч Фантома \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:sweeping_edge,lvl:4},{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:fire_aspect,lvl:2},{id:sharpness,lvl:6}]} 1"
+
+options:
+  category: "olds"
+  requires:
+   - "olds3"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 4

@@ -1,0 +1,46 @@
+tasks:
+powerrangertask:
+  type: "farmingcertain"
+  amount: 10000                            # amount of blocks to be brkoen
+  block: POTATO                          # name of block (can be id or minecraft name)
+  worlds:                               # (OPTIONAL) restrict to certain worlds
+   - "world"
+playtime:
+  type: "playtime"
+  minutes: 1200                           # amount of minutes played
+  ignore-afk: false    
+display:
+  name: "&fКВЕСТ ОТ ПОВЕР РЕЙНДЖЕРА "
+  lore-normal:
+    - "&cПотребуется немного времени"
+    - "&cИ желания"
+    - ""
+    - "&7Требования:"
+    - "&7 - Вскопать 10000 картошки"
+    - "&7 - Не умереть от старости"
+    - "&7 - Провести на сервере 20 часов."
+    - ""
+    - "&7Награда:"
+    - "&7 - 1000 Gems."
+    - "&7 - Мотыга Рейнджера"
+    
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {powerrangertask:progress}/10000 картошки"
+    - "&7 - {playtime:progress}/1200 минут
+  type: "POTATO"
+
+rewards:
+  - "addbalance {player} 1000"
+  - "give {player} minecraft:netherite_hoe{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Мотыга Рейнджера \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:10},{id:fortune,lvl:3}]} 1"
+
+options:
+  category: "olds"
+  requires:
+   - "hard1"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 4
