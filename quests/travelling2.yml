@@ -22,10 +22,10 @@ display:
     
   lore-started:
     - ""
-  type: "DIRT"
+  type: "COMPASS"
 
 rewards:
-  - "addbalance {player} 100"
+  - "addbalance {player} 150"
   - "give {player} minecraft:compass{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Волшебный компасс \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}]'}},Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3} 1"
 
 options:

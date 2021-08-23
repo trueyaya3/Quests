@@ -33,7 +33,7 @@ display:
     
   lore-started:
     - ""
-  type: "DIRT"
+  type: "PORKCHOP"
 
 rewards:
   - "addbalance {player} 200"

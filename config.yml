@@ -64,6 +64,13 @@ categories:
       lore:
         - '&7Невозобновляемый квест'
       type: "DIAMOND_BOOTS"
+   hard:
+    display:
+      name: "&cТяжелые квесты"
+      lore:
+        - '&7Невозобновляемый квест'
+        - '&7Не для слабонервных'
+      type: "TOTEM_OF_ONDYING"
 #  common:
 #    display:
 #      name: "&cРутина"

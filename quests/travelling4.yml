@@ -28,10 +28,10 @@ display:
     - "&7 - {travel:progress}/50000 блоков."
     - "&7 - {travelnethertask:progress}/30000 блоков в аду."
     - "&7 - Мир"
-  type: "DIRT"
+  type: "NETHER_STAR"
 
 rewards:
-  - "addbalance {player} 100"
+  - "addbalance {player} 500"
   - "give {player} minecraft:netherite_boots{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Волшебные ботинки \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}]'}},Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:protection,lvl:4},{id:feather_falling,lvl:4},{id:thorns,lvl:3},{id:depth_strider,lvl:3},{id:soul_speed,lvl:3} 1"
 
 options:

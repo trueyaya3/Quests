@@ -20,14 +20,14 @@ display:
     - "&7 - Подоить 100 коров"
     - ""
     - "&7Награда:"
-    - "&7 - 50 Gems."
+    - "&7 - 100 Gems."
   lore-started:
     - ""
     - "&7Прогресс:"
     - "&7 - {travel:progress}/15000 блоков."
     - "&7 - {milkingtask:progress}/100 коров."
     - "&7 - Мир"
-  type: "DIRT"
+  type: "MILK_BUCKET"
 
 rewards:
   - "addbalance {player} 100"

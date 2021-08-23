@@ -1,0 +1,41 @@
+tasks:
+  hard1:
+    type: "inventory"
+    item: ENCHANTED_GOLDEN_APPLE                       # name of item (can be id or minecraft name)
+    amount: 64                            # amount of item needed
+    data: 0                               # (OPTIONAL) data code
+    remove-items-when-complete: false     # (OPTIONAL) take the items away from the player on completion - default: false
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+     - "world"
+display:
+  name: "&fСамое легкое:)"
+  lore-normal:
+    - "&cСоберите стак одних из самых редких"
+    - "&cПредметов в игре"
+    - ""
+    - "&7Требования:"
+    - "&7 - Собрать стак ЗАЧАРОВАННЫХ золотых яблок"
+    - ""
+    - "&7Награда:"
+    - "&7 - 700 Gems."
+    - "&7 - Меч-швырятель."
+    
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {hard1:progress}/64 яблок"
+  type: "EHCHANTED_GOLDEN_APPLE"
+
+rewards:
+  - "addbalance {player} 700"
+  - "give {player} minecraft:diamond_sword{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Меч швырятель \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:sharpness,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:sweeping_edge,lvl:3},{id:knockback,lvl:5}]} 1"
+
+options:
+  category: "hard"
+  requires:
+   
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 4
