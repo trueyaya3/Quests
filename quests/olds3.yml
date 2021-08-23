@@ -33,7 +33,7 @@ display:
 rewards:
   - "addbalance {player} 1000"
   - "give {player} minecraft:netherite_axe{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Топор Бентоса \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:silk_touch,lvl:1},{id:sharpness,lvl:6}]} 1"
-
+  - "give {player} minecraft:skull 1 3 {SkullOwner:bentosss}"
 options:
   category: "olds"
   requires:
