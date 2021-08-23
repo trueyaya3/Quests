@@ -1,0 +1,45 @@
+tasks:
+  travel:
+    type: "walking"
+    distance: 50000                       # distance in block travelled
+    worlds:
+      - "world"
+  travelnethertask:
+    type: "walking"
+    distance: 30000                       # distance in block travelled
+    worlds:
+      - "nether"
+display:
+  name: "&fФинальный этап"
+  lore-normal:
+    - "&cПробегите 50000 блоков на своих двух (тяжело)"
+    - "&cПробегите 30000 блоков в аду (супертяжело)"
+    - ""
+    - "&7Требования:"
+    - "&7 - Пробежать 50000 блоков в обычном мире."
+    - "&7 - Пробежите 30000 блоков в нижнем мире"
+    - ""
+    - "&7Награда:"
+    - "&7 - 500 Gems."
+    - "&7 - Топовые ботинки"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {travel:progress}/50000 блоков."
+    - "&7 - {travelnethertask:progress}/30000 блоков в аду."
+    - "&7 - Мир"
+  type: "DIRT"
+
+rewards:
+  - "addbalance {player} 100"
+  - "give {player} minecraft:netherite_boots{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Волшебные ботинки \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}]'}},Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:protection,lvl:4},{id:feather_falling,lvl:4},{id:thorns,lvl:3},{id:depth_strider,lvl:3},{id:soul_speed,lvl:3} 1"
+
+options:
+  category: "travelling"
+  requires:
+   - "travelling3"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 4

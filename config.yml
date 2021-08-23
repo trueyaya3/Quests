@@ -40,7 +40,7 @@ categories:
     display:
       name: "&cНасилие"
       lore:
-        - '&7Возобновляемый квест'
+        - '&7Невозобновляемый квест'
       type: "IRON_SWORD"
   kills:
     display:
@@ -58,6 +58,12 @@ categories:
       lore:
         - '&7Возобновляемый квест'
       type: "DRAGON_HEAD"
+  travelling:
+    display:
+      name: "&cВеликое путешествие"
+      lore:
+        - '&7Невозобновляемый квест'
+      type: "DIAMOND_BOOTS"
 #  common:
 #    display:
 #      name: "&cРутина"

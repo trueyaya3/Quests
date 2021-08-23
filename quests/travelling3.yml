@@ -1,0 +1,50 @@
+tasks:
+  mobkillingpigtask:
+    type: "mobkillingcertain"
+    amount: 500                            # amount of mobs to be killed
+    mob: PIG                            # name of mob
+    name: default                       # (OPTIONAL) this only allows blazes called "&cInferno" - default: any name
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+     - "world"
+  travel:
+    type: "walking"
+    distance: 17000                       # distance in block travelled
+    worlds:
+      - "world"
+display:
+  name: "&fИспытание рейнджера"
+  lore-normal:
+    - "&cУбейте повер рейнджеров"
+    - ""
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 500 свиней"
+    - "&7 - Но при этом не стать свиньей"
+    - "&7 - Пробежать 17000 блоков"
+    - ""
+    - "&7Награда:"
+    - "&7 - 200 Gems."
+    - "&7 - Волшебный компасс."
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {mobkillingpigtask:progress}/500 свиней."
+    - "&7 - {travel:progress}/17000 блоков."
+    - "&7 - Мир"
+    
+  lore-started:
+    - ""
+  type: "DIRT"
+
+rewards:
+  - "addbalance {player} 200"
+  - "give {player} minecraft:diamond_axe{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Волшебный топор \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}]'}},Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3} 1"
+
+options:
+  category: "travelling"
+  requires:
+   - "travelling2"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 4
