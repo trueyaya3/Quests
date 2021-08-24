@@ -4,13 +4,13 @@ miningobsidiantask:
   amount: 5000                           # amount of blocks to be brkoen
   block: OBSIDIAN                          # name of block (can be id or minecraft name)
   data: 1                               # (OPTIONAL) data code 
-  reverse-if-placed: false              # (OPTIONAL) if true, blocks of same type placed will reverse progression (prevents silk-touch exploit)
-  check-coreprotect: false              # (OPTIONAL) if true and CoreProtect is present, the plugin will check its logs for player placed blocks
+  reverse-if-placed: true              # (OPTIONAL) if true, blocks of same type placed will reverse progression (prevents silk-touch exploit)
+  check-coreprotect: true              # (OPTIONAL) if true and CoreProtect is present, the plugin will check its logs for player placed blocks
   check-coreprotect-time: 3600          # (OPTIONAL) time in seconds for the maximum logging period to check
   worlds:                               # (OPTIONAL) restrict to certain worlds
-   - "world"
+   - "world_the_end"
 display:
-  name: "&fПо дороге в ад"
+  name: "&fГде много абсидиана?"
   lore-normal:
     - "&cСломайте 5000 блоков обсидиана"
     - "&cИли свою кирку"
@@ -18,10 +18,12 @@ display:
     - "&7Требования:"
     - "&7 - Сломать 5000 блоков обсидиана"
     - "&7 - Не умереть от старости"
+    - "&7 - Выполнить в енде"
     - ""
     - "&7Награда:"
     - "&7 - 900 Gems."
     - "&7 - Кирка шахтера"
+    - "&7 - Трофей"
     
   lore-started:
     - ""
@@ -30,9 +32,9 @@ display:
   type: "CRYING_OBSIDIAN"
 
 rewards:
-  - "addbalance {player} 700"
+  - "addbalance {player} 900"
   - "give {player} minecraft:netherite_pikcaxe{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Кирка шахтера \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:efficiency,lvl:7},{id:mending,lvl:1},{id:unbreaking,lvl:1},{id:silk_touch,lvl:1}]} 1"
-
+  - "give {player} golden_pickaxe{display:{Name:'[{\"text\":\"Я в краю обсид капал\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Награда за квест из серии `Тяжелые квесты`\",\"italic\":true,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Все квесты можно найти по команде \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"/quest\",\"color\":\"dark_aqua\"}]']},Enchantments:[]} 1"
 options:
   category: "hard"
   requires:
