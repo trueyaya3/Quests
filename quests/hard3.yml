@@ -1,7 +1,7 @@
 tasks:
   expearntask:
     type: "expearn"
-    amount: 6800000                            # amount of experience earned
+    amount: 680000                            # amount of experience earned
     worlds:                               # (OPTIONAL) restrict to certain worlds
    - "world"
   beeftask:
@@ -16,7 +16,7 @@ tasks:
     type: "mobkillingcertain"
     amount: 1500                            # amount of mobs to be killed
     mob: GUARDIAN                           # name of mob
-    name: &cInferno                       # (OPTIONAL) this only allows blazes called "&cInferno" - default: any name
+    name: default                       # (OPTIONAL) this only allows blazes called "&cInferno" - default: any name
     worlds:                               # (OPTIONAL) restrict to certain worlds
      - "world"
 display:
@@ -37,7 +37,7 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {expearntask:progress}/6800000 опыта"
+    - "&7 - {expearntask:progress}/680000 опыта"
     - "&7 - {beeftask:progress}/64 губок"
     - "&7 - {mobkillingguardiantask:progress}/1500 стражей"
   type: "SPONGE"
