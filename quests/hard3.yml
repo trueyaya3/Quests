@@ -1,7 +1,7 @@
 tasks:
   expearntask:
     type: "expearn"
-    amount: 680000                            # amount of experience earned
+    amount: 358470                             # amount of experience earned
     worlds:                               # (OPTIONAL) restrict to certain worlds
    - "world"
   beeftask:
@@ -26,7 +26,7 @@ display:
     - "&cЗа всю историю топмайна"
     - ""
     - "&7Требования:"
-    - "&7 - Соберите 100 уровней."
+    - "&7 - Соберите 300 уровней."
     - "&7 - Соберите в инвенторе стак губок"
     - "&7 - Убейте 1500 морских стражей"
     - ""
@@ -37,7 +37,7 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {expearntask:progress}/680000 опыта"
+    - "&7 - {expearntask:progress}/358470 опыта"
     - "&7 - {beeftask:progress}/64 губок"
     - "&7 - {mobkillingguardiantask:progress}/1500 стражей"
   type: "SPONGE"
