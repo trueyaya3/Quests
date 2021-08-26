@@ -3,6 +3,14 @@ tasks:
   playtime:
     type: "playtime"
     minutes: 2400
+    
+  positiontask:
+    type: "position"
+    x: 8500                                 # x position
+    y: 80                                  # y position
+    z: 8500                                 # z position
+    world: world                          # name of world
+    distance-padding: 10  
 
 display:
   name: "&fСвой среди чужих!"
@@ -11,6 +19,9 @@ display:
     - ""
     - "&7Требования:"
     - "&7 - Пробыть в регионе 40 часов."
+    - "&7 - Через кровь и пот прибегите на далекие координаты"
+    - "&7 - Которые можно узнать в нашем Discord сервере"
+    - "&7 - https://discord.gg/TXZpW4cEBS"
     - ""
     - "&7Награда:"
     - "&7 - 500 Gems."
