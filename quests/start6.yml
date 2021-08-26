@@ -1,9 +1,8 @@
 tasks:
-
   playtime:
     type: "playtime"
     minutes: 2400
-    
+
   positiontask:
     type: "position"
     x: 8500                                 # x position
@@ -11,6 +10,9 @@ tasks:
     z: 8500                                 # z position
     world: world                          # name of world
     distance-padding: 10  
+ 
+  startcommands:
+    /tellraw @p {"text":"координаты находятся в дискорде: https://discord.gg/TXZpW4cEBS","clickEvent":{"action":"open_url","value":""}}  
 
 display:
   name: "&fСвой среди чужих!"
