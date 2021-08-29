@@ -45,7 +45,7 @@ display:
 
 rewards:
   - "addbalance {player} 1500"
-  - "give {player} minecraft:trident{display:{Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:piercing,lvl:7},{id:riptide,lvl:3}]} 1"
+  - "give {player} minecraft:trident{Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:piercing,lvl:7},{id:riptide,lvl:3}]} 1"
   - "give {player} minecraft:trident{display:{Name:'[{\"text\":\"Что ты знаешь про боль?\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Награда за квест из серии `Тяжелые квесты`\",\"italic\":true,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Все квесты можно найти по команде \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"/quest\",\"color\":\"dark_aqua\"}]']},Enchantments:[]} 1"
 
 options:
