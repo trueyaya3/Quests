@@ -9,6 +9,7 @@ tasks:
      - "world"
 display:
   name: "&fСамое легкое:)"
+  type: ENCHANTED_GOLDEN_APPLE
   lore-normal:
     - "&cСоберите стак одних из самых редких"
     - "&cПредметов в игре"
