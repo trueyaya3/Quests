@@ -27,8 +27,6 @@ rewards:
 
 options:
   category: "dragon"
-  requires:
-    - ""
   repeatable: true
   cooldown:
     enabled: true
