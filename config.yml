@@ -70,7 +70,7 @@ categories:
       lore:
         - '&7Невозобновляемый квест'
         - '&7Не для слабонервных'
-      type: "TOTEM_OF_ONDYING"
+      type: "TOTEM_OF_UNDYING"
   olds:
    display:
       name: "&cКвесты от игроков"
