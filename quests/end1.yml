@@ -59,8 +59,6 @@ rewards:
   - "give {player} minecraft:shulker_box{display:{Name:'[{\"text\":\"Шалкер\",\"bold\":true,\"color\":\"gold\"}]'}} 1"
 options:
   category: "end"
-  requires:
-    - ""
   repeatable: false
   cooldown:
     enabled: true
