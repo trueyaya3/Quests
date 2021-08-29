@@ -8,7 +8,7 @@ tasks:
     check-coreprotect: true
     check-coreprotect-time: 3600 
     worlds:
-   - "world_the_end"
+      - "world_the_end"
 display:
   name: "&fГде много абсидиана?"
   lore-normal:
