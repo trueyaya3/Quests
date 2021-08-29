@@ -29,8 +29,6 @@ rewards:
 
 options:
   category: "pvp"
-  requires:
-    - ""
   repeatable: true
   cooldown:
     enabled: true
