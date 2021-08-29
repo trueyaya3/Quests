@@ -1,7 +1,7 @@
 tasks:
   hard1:
     type: "inventory"
-    item: enchanted_golden_apple
+    item: ENCHANTED_GOLDEN_APPLE
     amount: 64
     data: 0 
     remove-items-when-complete: false
