@@ -3,7 +3,7 @@ tasks:
     type: "expearn"
     amount: 358470
     worlds:
-   - "world"
+      - "world"
   beeftask:
     type: "inventory"
     item: SPONGE
