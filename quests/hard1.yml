@@ -26,8 +26,7 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - {hard1:progress}/64 яблок"
-  type: "EHCHANTED_GOLDEN_APPLE"
-
+  type: "ENHANTED_GOLDEN_APPLE"
 rewards:
   - "addbalance {player} 700"
   - "give {player} minecraft:diamond_sword{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Меч швырятель \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:sharpness,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:sweeping_edge,lvl:3},{id:knockback,lvl:5}]} 1"
