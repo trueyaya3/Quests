@@ -33,14 +33,14 @@
 categories:
   start:
     display:
-      name: "&fНачало"
+      name: "&fПервые шаги"
       lore:
       type: "LEATHER_BOOTS"
   pvp:
     display:
-      name: "&cPvp"
+      name: "&cНасилие"
       lore:
-        - '&7Повторяемый квест'
+        - '&7Невозобновляемый квест'
       type: "IRON_SWORD"
   kills:
     display:
@@ -48,16 +48,37 @@ categories:
       type: "NETHERITE_SWORD"
   end:
     display:
-      name: "&5Энд города"
+      name: "&5Начало конца"
       lore:
-        - '&7Повторяемый квест'
+        - '&7Возобновляемый квест'
       type: "SHULKER_SHELL"
   dragon:
     display:
-      name: "&cУбийца дракона"
+      name: "&cАд, Драконы и гасты"
       lore:
-        - '&7Повторяемый квест'
+        - '&7Возобновляемый квест'
       type: "DRAGON_HEAD"
+  travelling:
+    display:
+      name: "&cВеликое путешествие"
+      lore:
+        - '&7Невозобновляемый квест'
+      type: "DIAMOND_BOOTS"
+  hard:
+    display:
+      name: "&cТяжелые квесты"
+      lore:
+        - '&7Невозобновляемый квест'
+        - '&7Не для слабонервных'
+      type: "TOTEM_OF_ONDYING"
+  olds:
+   display:
+      name: "&cКвесты от игроков"
+      lore:
+        - '&7Невозобновляемый квест'
+        - '&7Не для слабонервных'
+        - '&7К выполнению не рекомендуется.'
+      type: "ELYTRA"
 #  common:
 #    display:
 #      name: "&cРутина"
@@ -253,4 +274,3 @@ messages:
   command-quest-admin-category-permission: "&7Category &c{category} &7 could not be opened for player &c{player}&7. They do not have permission to view it."
   command-quest-admin-complete-success: "&7Quest &c{quest} &7completed for player &c{player}&7."
   command-quest-admin-reset-success: "&7Successfully reset quest '&c{quest}&7' for player &c{player}&7."
-
