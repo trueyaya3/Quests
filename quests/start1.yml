@@ -26,8 +26,6 @@ rewards:
 
 options:
   category: "start"
-  requires:
-    - ""
   repeatable: false
   cooldown:
     enabled: true
