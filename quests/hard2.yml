@@ -1,0 +1,43 @@
+tasks:
+miningobsidiantask:
+  type: "blockbreakcertain"
+  amount: 5000 
+  block: OBSIDIAN
+  data: 1 
+  reverse-if-placed: true
+  check-coreprotect: true
+  check-coreprotect-time: 3600 
+  worlds:
+   - "world_the_end"
+display:
+  name: "&fГде много абсидиана?"
+  lore-normal:
+    - "&cСломайте 5000 блоков обсидиана"
+    - "&cИли свою кирку"
+    - ""
+    - "&7Требования:"
+    - "&7 - Сломать 5000 блоков обсидиана"
+    - "&7 - Не умереть от старости"
+    - "&7 - Выполнить в енде"
+    - ""
+    - "&7Награда:"
+    - "&7 - 100 Gems."
+    - "&7 - Кирка шахтера"
+    - "&7 - Трофей"
+    
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {miningobsidiantask:progress}/5000 обсидиана"
+  type: "CRYING_OBSIDIAN"
+
+rewards:
+  - "addbalance {player} 900"
+  - "give {player} minecraft:netherite_pikcaxe{display:{Lore:['[{\"text\":\"Предмет из квестов\"}]','[{\"text\":\"/quest\",\"color\":\"aqua\"}]'],Name:'[{\"text\":\"Кирка шахтера \",\"color\":\"red\"},{\"text\":\"{player}\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_red\",\"bold\":false}],Enchantments:[{id:efficiency,lvl:7},{id:mending,lvl:1},{id:unbreaking,lvl:1},{id:silk_touch,lvl:1}]} 1"
+  - "give {player} golden_pickaxe{display:{Name:'[{\"text\":\"Я в краю обсид капал\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Награда за квест из серии `Тяжелые квесты`\",\"italic\":true,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Все квесты можно найти по команде \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"/quest\",\"color\":\"dark_aqua\"}]']},Enchantments:[]} 1"
+options:
+  category: "hard"
+  requires:
+   - "hard1"
+  repeatable: false
+  sort-order: 2
