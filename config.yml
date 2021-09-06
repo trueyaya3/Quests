@@ -71,6 +71,7 @@ categories:
         - '&7Невозобновляемый квест'
         - '&7Не для слабонервных'
       type: "TOTEM_OF_UNDYING"
+   permission-required: true      
   olds:
    display:
       name: "&cКвесты от игроков"
@@ -79,6 +80,7 @@ categories:
         - '&7Не для слабонервных'
         - '&7К выполнению не рекомендуется.'
       type: "ELYTRA"
+   permission-required: true      
 #  common:
 #    display:
 #      name: "&cРутина"
