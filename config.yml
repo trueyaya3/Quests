@@ -71,7 +71,7 @@ categories:
         - '&7Невозобновляемый квест'
         - '&7Не для слабонервных'
       type: "TOTEM_OF_UNDYING"
-   permission-required: true      
+    permission-required: true      
   olds:
    display:
       name: "&cКвесты от игроков"
