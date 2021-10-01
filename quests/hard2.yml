@@ -3,7 +3,6 @@ tasks:
     type: "blockbreakcertain"
     amount: 5000 
     block: OBSIDIAN
-    data: 1 
     reverse-if-placed: true
     check-coreprotect: true
     check-coreprotect-time: 3600 
