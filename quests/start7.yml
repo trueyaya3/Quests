@@ -1,0 +1,32 @@
+tasks:
+
+  playtime:
+    type: "playtime"
+    minutes: 4800
+
+display:
+  name: "&fЯ тут олд"
+  lore-normal:
+    - "&cПрижится на сервере"
+    - ""
+    - "&7Требования:"
+    - "&7 - Пробыть в регионе 80 чаов."
+    - ""
+    - "&7Награда:"
+    - "&7 - 2000 Gems."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {playtime:progress}/4800 минут."
+  type: "DIAMOND"
+
+rewards:
+  - "addbalance {player} 2000"
+  - "lp user {player} parent add olds"
+
+options:
+  category: "start"
+  requires:
+    - "start6"
+  repeatable: false
+  sort-order: 7
