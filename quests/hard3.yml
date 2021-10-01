@@ -8,7 +8,6 @@ tasks:
     type: "inventory"
     item: SPONGE
     amount: 64
-    data: 0
     remove-items-when-complete: false
     worlds:
      - "world"
