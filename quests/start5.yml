@@ -14,7 +14,7 @@ tasks:
     worlds:
       - "world"
 display:
-  name: "&fПервые алмазы"
+  name: "&fПервые алмазы и библиотека"
   lore-normal:
     - "&cПервые алмазы"
     - ""
