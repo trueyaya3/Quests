@@ -4,7 +4,7 @@ tasks:
     distance: 10000
     worlds:
       - "world"
- playtime:
+  playtime:
     type: "playtime"
     minutes: 840      
 display:
