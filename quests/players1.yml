@@ -1,5 +1,5 @@
 tasks:
-  start1:
+  players:
     type: "walking"
     distance: 10000
     worlds:
