@@ -86,7 +86,7 @@ categories:
       name: "&cКвесты для игроков"
       lore:
         - '&7Квесты не для новеньких игроков'
-      type: "OAK_SAMPLING"
+      type: "SAMPLING"
    permission-required: true
 #  common:
 #    display:
