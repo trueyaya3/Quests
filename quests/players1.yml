@@ -1,5 +1,5 @@
 tasks:
-  players:
+  players1:
     type: "walking"
     distance: 10000
     worlds:
@@ -24,6 +24,6 @@ rewards:
   - "ei give {player} gems_totem"
 
 options:
-  category: "players1"
+  category: "players"
   repeatable: false
   sort-order: 1
