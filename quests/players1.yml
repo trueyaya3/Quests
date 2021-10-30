@@ -1,0 +1,29 @@
+tasks:
+  start1:
+    type: "walking"
+    distance: 10000
+    worlds:
+      - "world"
+display:
+  name: "&fПоходить по миру"
+  lore-normal:
+    - ""
+    - "&7Требования:"
+    - "&7 - Пробежать 10000 блоков."
+    - ""
+    - "&7Награда:"
+    - "&7 - Денежный тотем"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {players1:progress}/10000 блоков."
+    - "&7 - Мир"
+  type: "DIRT"
+
+rewards:
+  - "ei give {player} gems_totem"
+
+options:
+  category: "players1"
+  repeatable: false
+  sort-order: 1
