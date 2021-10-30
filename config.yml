@@ -81,6 +81,13 @@ categories:
         - '&7К выполнению не рекомендуется.'
       type: "ELYTRA"
    permission-required: true      
+  players:
+   display:
+      name: "&cКвесты для игроков"
+      lore:
+        - '&7Квесты не для новеньких игроков'
+      type: "OAK_SAMPLING"
+   permission-required: true
 #  common:
 #    display:
 #      name: "&cРутина"
