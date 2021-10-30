@@ -1,22 +1,27 @@
 tasks:
-  players1:
+  walking:
     type: "walking"
     distance: 10000
     worlds:
       - "world"
+ playtime:
+    type: "playtime"
+    minutes: 840      
 display:
   name: "&fПоходить по миру"
   lore-normal:
     - ""
     - "&7Требования:"
-    - "&7 - Пробежать 10000 блоков."
+    - "&7 - Пробежать в мире 10000 блоков."
+    - "&7 - Пробыть в регионе 14 чаcов."
     - ""
     - "&7Награда:"
     - "&7 - Денежный тотем"
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {players1:progress}/10000 блоков."
+    - "&7 - {walking:progress}/10000 блоков."
+    - "&7 - {playtime:progress}/840 минут."
     - "&7 - Мир"
   type: "DIRT"
 
