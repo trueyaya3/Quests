@@ -86,7 +86,7 @@ categories:
       name: "&cКвесты для игроков"
       lore:
         - '&7Квесты не для новеньких игроков'
-      type: "SAMPLING"
+      type: "GOLD_SWORD"
    permission-required: true
 #  common:
 #    display:
