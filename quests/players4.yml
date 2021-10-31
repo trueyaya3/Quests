@@ -3,6 +3,22 @@ tasks:
     type: "consume"
     amount: 100
     item: mushroom_stew 
+  brown_mushroom_block:
+    type: "blockbreakcertain"
+    amount: 200                            
+    block: brown_mushroom_block                        
+    reverse-if-placed: true              
+    check-coreprotect: true              
+    check-coreprotect-time: 3600 
+    
+  red_mushroom_block:
+    type: "blockbreakcertain"
+    amount: 200                            
+    block: red_mushroom_block                        
+    reverse-if-placed: true              
+    check-coreprotect: true              
+    check-coreprotect-time: 3600          
+
   eat2:
     type: "consume"
     amount: 15
@@ -29,7 +45,8 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {eat:progress}/100 суопв."
+    - "&7 - {brown_mushroom_block:progress}/200 коричневых блоков грибов"
+    - "&7 - {red_mushroom_block:progress}/200 красных блоков грибов"
     - "&7 - {eat2:progress}/15 яблок."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - {expearn:progress}/10841 опыта."
