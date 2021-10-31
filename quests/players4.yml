@@ -2,7 +2,7 @@ tasks:
   eat:
     type: "consume"
     amount: 100
-    item: MUSHROOM_SOUP 
+    item: mushroom_stew 
   eat2:
     type: "consume"
     amount: 15
