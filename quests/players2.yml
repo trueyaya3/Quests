@@ -3,7 +3,12 @@ tasks:
     type: "mobkillingcertain"
     amount: 100                            # amount of mobs to be killed
     mob: WITCH                            # name of mob
-
+expearn:
+  type: "expearn"
+  amount: 13841                            # amount of experience earned
+  worlds:                               # (OPTIONAL) restrict to certain worlds
+   - "world"
+   
   playtime:
     type: "playtime"
     minutes: 420      
@@ -14,6 +19,7 @@ display:
     - "&7Требования:"
     - "&7 - Убить 100 ведем"
     - "&7 - Пробыть в регионе 7 чаcов."
+    - "&7 - Набрать 60 уровень опыта."
     - "&eПовторяемый"
     - ""
     - "&7Награда:"
@@ -23,6 +29,7 @@ display:
     - "&7Прогресс:"
     - "&7 - {mobkillingwitches:progress}/100 блоков."
     - "&7 - {playtime:progress}/420 минут."
+    - "&7 - {expearn:progress}/13841 опыта."
   type: "PRISMARINE_SHARD"
 
 rewards:
