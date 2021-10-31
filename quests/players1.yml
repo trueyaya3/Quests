@@ -23,7 +23,7 @@ display:
     - "&7 - {walking:progress}/10000 блоков."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - Мир"
-  type: "DIRT"
+  type: "EMERALD"
 
 rewards:
   - "ei give {player} gems_totem"
