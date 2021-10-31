@@ -22,7 +22,7 @@ display:
     - "&7Прогресс:"
     - "&7 - {mobkillingwitches:progress}/100 блоков."
     - "&7 - {playtime:progress}/420 минут."
-  type: "prismarine_shard"
+  type: "PRISMARINE_SHARD"
 
 rewards:
   - "ei give {player} exp_totem"
