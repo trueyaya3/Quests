@@ -33,7 +33,7 @@ display:
     - "&7 - {eat2:progress}/15 яблок."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - {expearn:progress}/10841 опыта."
-  type: "MUSHROOM_SOUP"
+  type: "Bowl"
 
 rewards:
   - "ei give {player} book_of_slowness"
