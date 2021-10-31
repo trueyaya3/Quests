@@ -10,6 +10,9 @@ tasks:
   playtime:
     type: "playtime"
     minutes: 420      
+  expearn:
+    type: "expearn"
+    amount: 10841                            # amount of experience earned
 display:
   name: "&fКнига замедления I"
   lore-normal:
