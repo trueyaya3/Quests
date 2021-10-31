@@ -1,7 +1,7 @@
 tasks:
   mobkillingblazemultiple:
     type: "mobkillingcertain"
-    distance: 100
+    amount: 100
     mob: WITCH
   playtime:
     type: "playtime"
