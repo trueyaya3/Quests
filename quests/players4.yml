@@ -1,0 +1,45 @@
+tasks:
+  eat:
+    type: "consume"
+    amount: 200
+    item: SPIDER_EYE 
+  eat2:
+    type: "consume"
+    amount: 15
+    item: ENCHANTED_GOLDEN_APPLE 
+  playtime:
+    type: "playtime"
+    minutes: 420      
+display:
+  name: "&fКнига замедления I"
+  lore-normal:
+    - ""
+    - "&7Требования:"
+    - "&7 - Употребить 200 паучьих глаз"
+    - "&7 - Употребить 15 зачарованных яблок"
+    - "&7 - Пробыть в регионе 7 чаcов."
+    - "&7 - Набрать много опыта."
+    - "&eПовторяемый"
+    - ""
+    - "&7Награда:"
+    - "&7 - Книга замедления I"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {eat:progress}/200 глаз."
+    - "&7 - {playtime:progress}/420 минут."
+    - "&7 - {expearn:progress}/10841 опыта."
+  type: "SPIDER_EYE"
+
+rewards:
+  - "ei give {player} book_of_slowness"
+
+options:
+  category: "players"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 10080
+  requires:
+    - "players3"
+  sort-order: 3
