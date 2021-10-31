@@ -1,8 +1,9 @@
 tasks:
-  mobkillingblazemultiple:
+  mobkillingwitches:
     type: "mobkillingcertain"
-    amount: 100
-    mob: WITCH
+    amount: 100                            # amount of mobs to be killed
+    mob: WITCH                            # name of mob
+
   playtime:
     type: "playtime"
     minutes: 420      
@@ -19,7 +20,7 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {mobkillingblazemultiple:progress}/100 блоков."
+    - "&7 - {mobkillingwitches:progress}/100 блоков."
     - "&7 - {playtime:progress}/420 минут."
   type: "minecraft:experience_bottle"
 
@@ -33,5 +34,5 @@ options:
     enabled: true
     time: 10080
   requires:
-    - "player2"
+    - "players1"
   sort-order: 2
