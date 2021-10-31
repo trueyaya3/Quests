@@ -83,7 +83,7 @@ categories:
    permission-required: true      
   players:
    display:
-      name: "&cКвесты для игроков"
+      name: "&cВанила квесты 100%"
       lore:
         - '&7Квесты не для новеньких игроков'
       type: "GOLDEN_SWORD"
