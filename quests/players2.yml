@@ -3,12 +3,12 @@ tasks:
     type: "mobkillingcertain"
     amount: 100                            # amount of mobs to be killed
     mob: WITCH                            # name of mob
-expearn:
-  type: "expearn"
-  amount: 13841                            # amount of experience earned
-  worlds:                               # (OPTIONAL) restrict to certain worlds
-   - "world"
-   
+  expearn:
+    type: "expearn"
+    amount: 13841                            # amount of experience earned
+    worlds:                               # (OPTIONAL) restrict to certain worlds
+     - "world"
+
   playtime:
     type: "playtime"
     minutes: 420      
