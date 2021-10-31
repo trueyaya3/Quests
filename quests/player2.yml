@@ -1,0 +1,37 @@
+tasks:
+  mobkillingblazemultiple:
+    type: "mobkillingcertain"
+    distance: 100
+    mob: WITCH
+  playtime:
+    type: "playtime"
+    minutes: 420      
+display:
+  name: "&fНайти кристалы"
+  lore-normal:
+    - ""
+    - "&7Требования:"
+    - "&7 - Убить 100 ведем"
+    - "&7 - Пробыть в регионе 7 чаcов."
+    - ""
+    - "&7Награда:"
+    - "&7 - Тотем Опыта"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {mobkillingblazemultiple:progress}/100 блоков."
+    - "&7 - {playtime:progress}/420 минут."
+  type: "minecraft:experience_bottle"
+
+rewards:
+  - "ei give {player} exp_totem"
+
+options:
+  category: "players"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 10080
+  requires:
+    - "player2"
+  sort-order: 2
