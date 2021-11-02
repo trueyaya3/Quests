@@ -24,7 +24,7 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {mobkillingwitches:progress}/100 блоков."
+    - "&7 - {mobkillingwitches:progress}/100 ведем."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - {expearn:progress}/13841 опыта."
   type: "PRISMARINE_SHARD"
