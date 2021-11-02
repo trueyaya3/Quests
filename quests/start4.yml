@@ -23,7 +23,7 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - {mining:progress}/40 блоков в мире."
-    - "&7 - {permission:progress} донатик."
+    - "&7 - донатик."
   type: "DIRT"
 
 rewards:
