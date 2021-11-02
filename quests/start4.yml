@@ -4,11 +4,15 @@ tasks:
     amount: 40
     worlds:
       - "world"
-
+  permission:
+    type: "permission"
+    permission: "made_payment"
+    
 display:
-  name: "&fПрячемся IV"
+  name: "&fПервй донат"
   lore-normal:
-    - "&cВыкопайте свою первую землянку"
+    - "&cВзять бесплатный донат специально под квест белыый ник"
+    - "&cДонаты можно найти в меню &b/help"
     - ""
     - "&7Требования:"
     - "&7 - Сломать 40 блоков."
@@ -19,6 +23,7 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - {mining:progress}/40 блоков."
+    - "&7 - {permission:progress} донатик."
     - "&7 - Мир"
   type: "DIRT"
 
