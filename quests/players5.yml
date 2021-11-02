@@ -1,7 +1,7 @@
 tasks:
   FLOWER_POT:
-    type: "FLOWER_POT"
-    item: COMPASS                         # name of item (can be id or minecraft name)
+    type: "crafting"
+    item: FLOWER_POT                         # name of item (can be id or minecraft name)
     amount: 1                             # amount of item needed
    
   ENCHANTED_GOLDEN_APPLE:
