@@ -1,7 +1,7 @@
 tasks:
-  trident:
+  TRIDENT:
     type: "inventory"
-    item: trident                        
+    item: TRIDENT                        
     amount: 5                             
     data: 0                               
     remove-items-when-complete: true    
@@ -49,7 +49,7 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {trident:progress}/5 трезубцев."
+    - "&7 - {TRIDENT:progress}/5 трезубцев."
     - "&7 - {DROWNED:progress}/500 Утоплеников."
     - "&7 - {AXOLOTL:progress}/50 акселотоей."
     - "&7 - {DOLPHIN:progress}/5 дельфинов."
