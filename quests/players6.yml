@@ -46,6 +46,7 @@ display:
     - ""
     - "&7Награда:"
     - "&7 - Крафт 5ти трезубце в один"
+    - "&7 - 500 гемов"
   lore-started:
     - ""
     - "&7Прогресс:"
@@ -60,6 +61,7 @@ display:
 
 rewards:
   - "ei give {player} trident"
+  - "addbalance {player} 500"
 
 options:
   category: "players"
