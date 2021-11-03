@@ -1,4 +1,10 @@
 tasks:
+  trident:
+    type: "inventory"
+    item: trident                        
+    amount: 5                             
+    data: 0                               
+    remove-items-when-complete: true    
   DROWNED:
     type: "mobkillingcertain"
     amount: 500
@@ -30,6 +36,7 @@ display:
   lore-normal:
     - ""
     - "&7Требования:"
+    - "&7 - Собрать 5 трезубцев в инвенторе"
     - "&7 - Убить 500 упоплеников"
     - "&7 - Убить 50 акселотоей"
     - "&7 - Убить 5 дельфинов"
@@ -38,10 +45,11 @@ display:
     - "&7 - Набрать много опыта."
     - ""
     - "&7Награда:"
-    - "&7 - Горшок c зельями телепортации"
+    - "&7 - Крафт 5ти трезубце в один"
   lore-started:
     - ""
     - "&7Прогресс:"
+    - "&7 - {trident:progress}/5 трезубцев."
     - "&7 - {DROWNED:progress}/500 Утоплеников."
     - "&7 - {AXOLOTL:progress}/50 акселотоей."
     - "&7 - {DOLPHIN:progress}/5 дельфинов."
