@@ -1,0 +1,67 @@
+tasks:
+  BAKED_POTATO:
+    type: "consume"
+    amount: 320
+    item: BAKED_POTATO 
+    
+  POISONOUS_POTATO:
+    type: "consume"
+    amount: 10
+    item: POISONOUS_POTATO 
+    
+  CARROT:
+    type: "consume"
+    amount: 64
+    item: CARROT
+    
+  BEETROOT:
+    type: "consume"
+    amount: 64
+    item: BEETROOT    
+    
+  PAPER:
+    type: "crafting"
+    item: PAPER
+    amount: 64      
+    
+  playtime:
+    type: "playtime"
+    minutes: 420      
+
+display:
+  name: "&fЯ покакаф"
+  lore-normal:
+    - ""
+    - "&7Требования:"
+    - "&7 - Сьесть 5(стаков) больших порций ;ареной картошки"
+    - "&7 - Сьесть 10 отравленой картошки"
+    - "&7 - Сьесть 64 свеклы"
+    - "&7 - Сьесть 64 марковки"
+    - "&7 - Скрафтить 64 бумаги"
+    - "&7 - Пробыть в регионе 7 чаcов."
+    - ""
+    - "&7Награда:"
+    - "&7 - Броня жизни"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {BAKED_POTATO:progress}/320 картошки."
+    - "&7 - {POISONOUS_POTATO:progress}/10/ отравленой картошки."
+    - "&7 - {CARROT:progress}/64 марковки."
+    - "&7 - {BEETROOT:progress}/64 свеклы."
+    - "&7 - {PAPER:progress}/64 бумаги."
+    - "&7 - {playtime:progress}/420 минут."
+  type: "NETHERITE_CHESTPLATE"
+
+rewards:
+  - "ei give {player} heal_collection_chestplate"
+
+options:
+  category: "players"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 10080
+  requires:
+    - "players6"
+  sort-order: 6
