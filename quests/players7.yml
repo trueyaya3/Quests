@@ -61,7 +61,7 @@ options:
   repeatable: true
   cooldown:
     enabled: true
-    time: 10080
+    time: 43200
   requires:
     - "players6"
-  sort-order: 6
+  sort-order: 7
