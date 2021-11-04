@@ -1,0 +1,33 @@
+tasks:
+  spawn_visit:
+    type: "distancefrom"
+    x: 0                                 
+    y: 64                                
+    z: 0                                  
+    world: world                          
+    distance: 20                          
+  
+display:
+  name: "&fКемпить спавн"
+  lore-normal:
+    - ""
+    - "&7Требования:"
+    - "&7 - посетить блок бедрока на спавне"
+    - "&eПовторяемый"
+    - ""
+    - "&7Награда:"
+    - "&7 - 100 опыта"
+  type: "EXPERIENCE_BOTTLE"
+
+rewards:
+  - "experience add {playe} 100 points"
+
+options:
+  category: "players"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 60
+  requires:
+    - "players7"
+  sort-order: 7
