@@ -11,7 +11,7 @@ tasks:
 display:
   name: "&fГде много абсидиана?"
   lore-normal:
-    - "&cСломайте 5000 блоков обсидиана"
+    - "&cСломайте 5000 блоков обсидиана *"
     - "&cИли свою кирку"
     - ""
     - "&7Требования:"
@@ -28,7 +28,7 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - {miningobsidiantask:progress}/5000 обсидиана"
-  type: "CRYING_OBSIDIAN"
+  type: "OBSIDIAN"
 
 rewards:
   - "addbalance {player} 1000"
