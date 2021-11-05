@@ -2,22 +2,16 @@ tasks:
   expearntask:
     type: "expearn"
     amount: 358470
-    worlds:
-      - "world"
-  beeftask:
+  inventory:
     type: "inventory"
     item: SPONGE
     amount: 64
     remove-items-when-complete: false
-    worlds:
-     - "world"
   mobkillingguardiantask:
     type: "mobkillingcertain"
     amount: 1500
     mob: GUARDIAN
     name: default
-    worlds:
-     - "world"
 display:
   name: "&fПридётся понырять"
   lore-normal:
@@ -27,24 +21,24 @@ display:
     - "&7Требования:"
     - "&7 - Соберите 300 уровней."
     - "&7 - Соберите в инвенторе стак губок"
-    - "&7 - Убейте 1500 морских стражей"
+    - "&7 - Убейте 2500 морских стражей"
     - ""
     - "&7Награда:"
     - "&7 - 1500 Gems."
-    - "&7 - Трезуб Посейдона"
+    - "&7 - Шлем"
     - "&7 - Трофей"
     
   lore-started:
     - ""
     - "&7Прогресс:"
     - "&7 - {expearntask:progress}/358470 опыта"
-    - "&7 - {beeftask:progress}/64 губок"
+    - "&7 - {inventory:progress}/64 губок"
     - "&7 - {mobkillingguardiantask:progress}/1500 стражей"
   type: "SPONGE"
 
 rewards:
   - "addbalance {player} 1500"
-  - "give {player} minecraft:trident{Enchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:piercing,lvl:7},{id:riptide,lvl:3}]} 1"
+  - "ei give {player} heal_collection_helmet"
   - "give {player} minecraft:trident{display:{Name:'[{\"text\":\"Что ты знаешь про боль?\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Награда за квест из серии `Тяжелые квесты`\",\"italic\":true,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Все квесты можно найти по команде \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"/quest\",\"color\":\"dark_aqua\"}]']},Enchantments:[]} 1"
 
 options:
