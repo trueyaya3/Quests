@@ -61,3 +61,5 @@ options:
   category: "players"
   repeatable: false
   sort-order: 8
+  requires:
+    - "players8"
