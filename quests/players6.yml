@@ -57,6 +57,7 @@ display:
     - "&7Награда:"
     - "&7 - Крафт 3ти трезубце в один"
     - "&7 - 500 гемов"
+    - "&7 - Самородная медь"
   lore-started:
     - ""
     - "&7Прогресс:"
@@ -73,6 +74,7 @@ display:
 
 rewards:
   - "ei give {player} trident"
+  - "ei give {player} copper-totem"
   - "addbalance {player} 500"
 
 options:
