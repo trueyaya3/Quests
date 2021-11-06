@@ -9,6 +9,10 @@ tasks:
     type: "mobkillingcertain"
     amount: 500
     mob: DROWNED  
+  ELDER_GUARDIAN:
+    type: "mobkillingcertain"
+    amount: 1
+    mob: ELDER_GUARDIAN
   AXOLOTL:
     type: "mobkillingcertain"
     amount: 50
@@ -23,8 +27,12 @@ tasks:
     mob: DOLPHIN  
   ENCHANTED_GOLDEN_APPLE:
     type: "consume"
-    amount: 20
+    amount: 1
     item: ENCHANTED_GOLDEN_APPLE 
+  COOKED_COD:
+    type: "consume"
+    amount: 64
+    item: COOKED_COD 
   playtime:
     type: "playtime"
     minutes: 420      
@@ -36,25 +44,29 @@ display:
   lore-normal:
     - ""
     - "&7Требования:"
-    - "&7 - Собрать 5 трезубцев в инвенторе"
+    - "&7 - Собрать 3 трезубцев в инвенторе"
     - "&7 - Убить 500 упоплеников"
+    - "&7 - Убить сревнего стража"
     - "&7 - Убить 50 акселотоей"
     - "&7 - Убить 5 дельфинов"
-    - "&7 - Употребить 20 зачарованных яблок"
+    - "&7 - Употребить 1 зачарованных яблок"
+    - "&7 - Употребить 64 жыреной трески"
     - "&7 - Пробыть в регионе 7 чаcов."
     - "&7 - Набрать много опыта."
     - ""
     - "&7Награда:"
-    - "&7 - Крафт 5ти трезубце в один"
+    - "&7 - Крафт 3ти трезубце в один"
     - "&7 - 500 гемов"
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {TRIDENT:progress}/5 трезубцев."
+    - "&7 - {TRIDENT:progress}/3 трезубцев."
     - "&7 - {DROWNED:progress}/500 Утоплеников."
+    - "&7 - {ELDER_GUARDIAN:progress}/1 древного стража."
     - "&7 - {AXOLOTL:progress}/50 акселотоей."
     - "&7 - {DOLPHIN:progress}/5 дельфинов."
-    - "&7 - {ENCHANTED_GOLDEN_APPLE:progress}/20 яблок."
+    - "&7 - {ENCHANTED_GOLDEN_APPLE:progress}/1 яблок."
+    - "&7 - {COOKED_COD:progress}/60 жаренйо трески."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - {expearn:progress}/15000 опыта."
   type: "TRIDENT"
