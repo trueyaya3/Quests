@@ -61,7 +61,7 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {TRIDENT:progress}/3 трезубца."
+    - "&7 - 3 трезубца в инвентаре."
     - "&7 - {DROWNED:progress}/500 Утоплеников."
     - "&7 - {ELDER_GUARDIAN:progress}/1 древний страж."
     - "&7 - {AXOLOTL:progress}/50 акселотоей."
