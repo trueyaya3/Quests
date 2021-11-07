@@ -2,7 +2,7 @@ tasks:
   TRIDENT:
     type: "inventory"
     item: TRIDENT                        
-    amount: 5                             
+    amount: 3                           
     data: 0                               
     remove-items-when-complete: true    
   DROWNED:
