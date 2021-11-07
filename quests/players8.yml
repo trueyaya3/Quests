@@ -24,7 +24,7 @@ rewards:
 
 options:
   category: "players"
-  repeatable: true
+  repeatable: false
   cooldown:
     enabled: true
     time: 60
