@@ -22,7 +22,7 @@ tasks:
   PAPER:
     type: "crafting"
     item: PAPER
-    amount: 64      
+    amount: 640      
     
   playtime:
     type: "playtime"
@@ -49,7 +49,7 @@ display:
     - "&7 - {POISONOUS_POTATO:progress}/10/ отравленой картошки."
     - "&7 - {CARROT:progress}/64 марковки."
     - "&7 - {BEETROOT:progress}/64 свеклы."
-    - "&7 - {PAPER:progress}/64 бумаги."
+    - "&7 - {PAPER:progress}/640 бумаги."
     - "&7 - {playtime:progress}/420 минут."
   type: "NETHERITE_CHESTPLATE"
 
