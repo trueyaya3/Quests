@@ -24,6 +24,13 @@ tasks:
     item: PAPER
     amount: 640      
     
+  PAPER_INVENTORY:
+    type: "inventory"
+    item: PAPER                        
+    amount: 640                          
+    data: 0                               
+    remove-items-when-complete: true    
+    
   playtime:
     type: "playtime"
     minutes: 420      
@@ -37,7 +44,7 @@ display:
     - "&7 - Сьесть 10 отравленой картошки"
     - "&7 - Сьесть 64 свеклы"
     - "&7 - Сьесть 64 марковки"
-    - "&7 - Скрафтить 64 бумаги"
+    - "&7 - Скрафтить 640 бумаги и сложить в инветоре"
     - "&7 - Пробыть в регионе 7 чаcов."
     - ""
     - "&7Награда:"
@@ -50,6 +57,7 @@ display:
     - "&7 - {CARROT:progress}/64 марковки."
     - "&7 - {BEETROOT:progress}/64 свеклы."
     - "&7 - {PAPER:progress}/640 бумаги."
+    - "&7 - 640 бумаги в инвенторе."
     - "&7 - {playtime:progress}/420 минут."
   type: "NETHERITE_CHESTPLATE"
 
