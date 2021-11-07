@@ -22,12 +22,19 @@ tasks:
     amount: 20
   ENCHANTED_GOLDEN_APPLE:
     type: "consume"
-    amount: 15
+    amount: 3
     item: ENCHANTED_GOLDEN_APPLE 
   COOKED_BEEF:
     type: "consume"
     amount: 128
     item: COOKED_BEEF 
+  miningstone:
+    type: "blockbreakcertain"
+    amount: 10                            # amount of blocks to be brkoen
+    block: EMERALD_ORE                          # name of block (can be id or minecraft name)
+    reverse-if-placed: true              # (OPTIONAL) if true, blocks of same type placed will reverse progression (prevents silk-touch exploit)
+    check-coreprotect: true              # (OPTIONAL) if true and CoreProtect is present, the plugin will check its logs for player placed blocks
+    check-coreprotect-time: 3600          # (OPTIONAL) time in seconds for the maximum logging period to check
 
 display:
   name: "&fПоходить по мирам"
@@ -36,7 +43,8 @@ display:
     - "&7Требования:"
     - "&7 - Пробежать по 20к блоков во всех мирах."
     - "&7 - Зачаровать 20 предметов."
-    - "&7 - Употредить 15 зачарованнх яблок"
+    - "&7 - Сломать 10 блоков изумрудной руды а камне."
+    - "&7 - Употредить 5 зачарованнх яблок"
     - "&7 - Употредить 128 жареной свинины"
     - "&7 - Пробыть в регионе 7 чаcов."
     - ""
@@ -46,11 +54,12 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - {walking_world:progress}/20000 блоков."
+    - "&7 - {miningstone:progress}/10 блоков руды."
     - "&7 - {walking_world_nether:progress}/20000 блоков."
     - "&7 - {walking_world_the_end:progress}/20000 блоков."
-    - "&7 - {enchanting:progress}/20 минут."
-    - "&7 - {COOKED_BEEF:progress}/128 минут."
-    - "&7 - {ENCHANTED_GOLDEN_APPLE:progress}/15 минут."
+    - "&7 - {enchanting:progress}/20 Зачаровать предметы."
+    - "&7 - {COOKED_BEEF:progress}/128 Употредить свинину."
+    - "&7 - {ENCHANTED_GOLDEN_APPLE:progress}/3 яблока."
     - "&7 - {playtime:progress}/420 минут."
   type: "EMERALD_BLOCK"
 
