@@ -2,7 +2,7 @@ tasks:
 
   enchanting:
     type: "enchanting"
-    amount: 101                             # amount of items enchanted
+    amount: 20                             # amount of items enchanted
    
   EMERALD_ORE:
     type: "blockbreakcertain"
@@ -14,7 +14,7 @@ tasks:
   TOTEM_OF_UNDYING:
     type: "inventory"
     item: TOTEM_OF_UNDYING                        
-    amount: 20                           
+    amount: 5                           
     data: 0                               
     remove-items-when-complete: true    
   ELDER_GUARDIAN:
@@ -23,36 +23,30 @@ tasks:
     mob: ELDER_GUARDIAN
   CREEPER:
     type: "mobkillingcertain"
-    amount: 200
+    amount: 100
     mob: CREEPER      
-  ENCHANTED_GOLDEN_APPLE:
-    type: "consume"
-    amount: 1
-    item: ENCHANTED_GOLDEN_APPLE 
   GOLDEN_CARROT:
     type: "consume"
-    amount: 101
+    amount: 32
     item: GOLDEN_CARROT 
   playtime:
     type: "playtime"
     minutes: 420      
-    ignore-afk: true                         
   expearn:
     type: "expearn"
-    amount: 20000
+    amount: 5000
 display:
   name: "&fПервый тотем"
   lore-normal:
     - ""
     - "&7Требования:"
-    - "&7 - Собрать 20 тотемов в инвенторе "
-    - "&7 - Убить 200 криперов"
+    - "&7 - Собрать 5 тотемов в инвенторе "
+    - "&7 - Убить 100 криперов"
     - "&7 - Убить древнего стража"
-    - "&7 - Употребить 101 золотую марковку"
-    - "&7 - Зачаровать 101 раз"
-    - "&7 - Употребить 1 зачарованное яблоко"
-    - "&7 - Пробыть в регионе 7 чаcов( не афк )."
-    - "&7 - Набрать еще больше опыта."
+    - "&7 - Употребить 32 золотую марковку"
+    - "&7 - Зачаровать 20 раз"
+    - "&7 - Пробыть в регионе 7 чаcов."
+    - "&7 - Набрать опыта."
     - "&7 - Сломать 3 блока изумрудной руды в камне."
     - ""
     - "&7Награда:"
@@ -60,14 +54,13 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - 20 тотемов в инвентаре."
+    - "&7 - 5 тотемов в инвентаре."
     - "&7 - {ELDER_GUARDIAN:progress}/1 древний страж."
-    - "&7 - {CREEPER:progress}/200 криперов."
-    - "&7 - {GOLDEN_CARROT:progress}/101 марковок."
-    - "&7 - {enchanting:progress}/101 зачарований."
-    - "&7 - {ENCHANTED_GOLDEN_APPLE:progress}/1 зачарованое яблоко."
+    - "&7 - {CREEPER:progress}/100 криперов."
+    - "&7 - {GOLDEN_CARROT:progress}/32 марковок."
+    - "&7 - {enchanting:progress}/10 зачарований."
     - "&7 - {playtime:progress}/420 минут."
-    - "&7 - {expearn:progress}/20000 опыта."
+    - "&7 - {expearn:progress}/5000 опыта."
     - "&7 - {EMERALD_ORE:progress}/3 блока изумрудной руды в камне."
     
   type: "TOTEM_OF_UNDYING"
