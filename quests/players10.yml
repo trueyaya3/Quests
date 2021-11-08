@@ -46,7 +46,6 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - 20 тотемов в инвентаре."
-    - "&7 - {DROWNED:progress}/500 Утоплеников."
     - "&7 - {ELDER_GUARDIAN:progress}/1 древний страж."
     - "&7 - {CREEPER:progress}/200 криперов."
     - "&7 - {GOLDEN_CARROT:progress}/101 яблок."
