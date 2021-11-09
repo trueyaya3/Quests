@@ -58,7 +58,7 @@ display:
     - "&7 - {ELDER_GUARDIAN:progress}/1 древний страж."
     - "&7 - {CREEPER:progress}/100 криперов."
     - "&7 - {GOLDEN_CARROT:progress}/32 марковок."
-    - "&7 - {enchanting:progress}/10 зачарований."
+    - "&7 - {enchanting:progress}/20 зачарований."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - {expearn:progress}/5000 опыта."
     - "&7 - {EMERALD_ORE:progress}/3 блока изумрудной руды в камне."
