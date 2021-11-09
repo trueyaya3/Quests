@@ -67,7 +67,7 @@ display:
     - "&7 - {AXOLOTL:progress}/50 акселотоей."
     - "&7 - {DOLPHIN:progress}/5 дельфинов."
     - "&7 - {ENCHANTED_GOLDEN_APPLE:progress}/1 яблок."
-    - "&7 - {COOKED_COD:progress}/60 жареной трески."
+    - "&7 - {COOKED_COD:progress}/64 жареной трески."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - {expearn:progress}/15000 опыта."
   type: "TRIDENT"
