@@ -13,7 +13,7 @@ mobkilling_zombie:
     type: "playtime"
     minutes: 420      
 display:
-  name: "&fПетомцев"
+  name: "&fПитомцев"
   lore-normal:
     - ""
     - "&7Требования:"
