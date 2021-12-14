@@ -1,0 +1,37 @@
+tasks:
+  eat_cooked_porkchop:
+    type: "consume"
+    amount: 64
+    item: COOKED_PORKCHOP 
+  playtime:
+    type: "playtime"
+    minutes: 420      
+display:
+  name: "&fФерменский"
+  lore-normal:
+    - ""
+    - "&7Требования:"
+    - "&7 - Употребить 64 жаренной свинины"
+    - "&7 - Пробыть в регионе 7 чаcов."
+    - "&eПовторяемый"
+    - ""
+    - "&7Награда:"
+    - "&7 - Покебол"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {eat_cooked_porkchop:progress}/64 Свинины"
+    - "&7 - {playtime:progress}/420 минут."
+  type: "COOKED_PORKCHOP"
+
+rewards:
+  - /pocketmob give {player} farm_ball"
+
+options:
+  category: "pokemons"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 10080
+  requires:
+  sort-order: 1
