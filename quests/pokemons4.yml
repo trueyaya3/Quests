@@ -4,10 +4,10 @@ tasks:
     amount: 64
     item: BREAD  
 
-mobkilling_zombie:
-  type: "mobkillingcertain"
-  amount: 32                            
-  mob: villager                           
+  mobkilling_zombie:
+    type: "mobkillingcertain"
+    amount: 32                            
+    mob: villager                           
 
   playtime:
     type: "playtime"
