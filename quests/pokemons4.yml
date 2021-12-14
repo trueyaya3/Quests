@@ -33,7 +33,7 @@ display:
   type: "BREAD"
 
 rewards:
-  - pocketmob give {player} villager_ball"
+  - "pocketmob give {player} villager_ball"
 
 options:
   category: "pokemons"
