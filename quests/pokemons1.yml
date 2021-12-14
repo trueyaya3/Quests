@@ -25,7 +25,7 @@ display:
   type: "COOKED_PORKCHOP"
 
 rewards:
-  - pocketmob give {player} farm_ball"
+  - "pocketmob give {player} farm_ball"
 
 options:
   category: "pokemons"
