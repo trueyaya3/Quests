@@ -4,10 +4,10 @@ tasks:
     amount: 64
     item: ROTTEN_FLESH  
 
-mobkilling_zombie:
-  type: "mobkillingcertain"
-  amount: 32                            
-  mob: zombie                           
+  mobkilling_zombie:
+    type: "mobkillingcertain"
+    amount: 32                            
+    mob: zombie                           
 
   playtime:
     type: "playtime"
