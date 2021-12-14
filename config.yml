@@ -88,6 +88,14 @@ categories:
         - '&7Квесты не для новеньких игроков'
       type: "GOLDEN_SWORD"
    permission-required: true
+  pokemons:
+   display:
+      name: "&Покемоны"
+      lore:
+        - '&7Квесты не для новеньких игроков'
+      type: "EGG"
+   permission-required: true
+   
 #  common:
 #    display:
 #      name: "&cРутина"
