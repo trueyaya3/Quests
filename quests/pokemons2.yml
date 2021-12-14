@@ -40,5 +40,5 @@ options:
     enabled: true
     time: 10080
   requires:
-    - "pokemons1.yml"
+    - "pokemons1"
   sort-order: 2
