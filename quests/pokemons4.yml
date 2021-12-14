@@ -42,5 +42,5 @@ options:
     enabled: true
     time: 10080
   requires:
-    - "pokemons2.yml"
-  sort-order: 3
+    - "pokemons3.yml"
+  sort-order: 4
