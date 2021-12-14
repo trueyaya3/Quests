@@ -9,10 +9,10 @@ tasks:
     amount: 1
     item: GOLDEN_APPLE  
 
-mobkilling_wither:
-  type: "mobkillingcertain"
-  amount: 1                            
-  mob: wither                           
+  mobkilling_wither:
+    type: "mobkillingcertain"
+    amount: 1                            
+    mob: wither                           
 
   playtime:
     type: "playtime"
