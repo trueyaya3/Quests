@@ -33,7 +33,7 @@ display:
   type: "ROTTEN_FLESH"
 
 rewards:
-  - /pocketmob give {player} monster_ball"
+  - pocketmob give {player} monster_ball"
 
 options:
   category: "pokemons"
