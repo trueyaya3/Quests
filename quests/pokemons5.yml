@@ -1,0 +1,54 @@
+tasks:
+  eat_bread:
+    type: "consume"
+    amount: 64
+    item: GOLDEN_CARROT  
+    
+  eat_golden_apple:
+    type: "consume"
+    amount: 1
+    item: GOLDEN_APPLE  
+
+mobkilling_wither:
+  type: "mobkillingcertain"
+  amount: 1                            
+  mob: wither                           
+
+  playtime:
+    type: "playtime"
+    minutes: 420 
+
+display:
+  name: "&fСупербол"
+  lore-normal:
+    - ""
+    - "&7Требования:"
+    - "&7 - Употребить 64 золотой марковки"
+    - "&7 - Употребить зачарованное яблоко"
+    - "&7 - Убить визера"
+    - "&7 - Пробыть в регионе 7 чаcов."
+    - "&eПовторяемый"
+    - ""
+    - "&7Награда:"
+    - "&7 - Покебол"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {eat_bread::progress}/64 хлеба"
+    - "&7 - {eat_golden_apple::progress}/1 яюлоко"
+    - "&7 - {mobkilling_wither::progress}/32 жителя"
+    - "&7 - {playtime:progress}/420 минут."
+  type: "GOLDEN_CARROT"
+
+rewards:
+  - /pocketmob give {player} master_ball"
+
+options:
+  category: "pokemons"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 10080
+  requires:
+    - "pokemons4.yml"
+  sort-order: 5
