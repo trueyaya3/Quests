@@ -90,7 +90,7 @@ categories:
    permission-required: true
   pokemons:
    display:
-      name: "&Покемоны"
+      name: "Покемоны"
       lore:
         - '&7Квесты не для новеньких игроков'
       type: "EGG"
