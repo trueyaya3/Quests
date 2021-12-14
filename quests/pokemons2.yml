@@ -1,0 +1,44 @@
+tasks:
+  eat_rotten_flesh:
+    type: "consume"
+    amount: 64
+    item: ROTTNEN_FLESH  
+  eat_carrot:
+    type: "consume"
+    amount: 64
+    item: CARROT  
+  playtime:
+    type: "playtime"
+    minutes: 420      
+display:
+  name: "&fПетомцев"
+  lore-normal:
+    - ""
+    - "&7Требования:"
+    - "&7 - Употребить 64 гнилой плоти"
+    - "&7 - Употребить 64 марковки"
+    - "&7 - Пробыть в регионе 7 чаcов."
+    - "&eПовторяемый"
+    - ""
+    - "&7Награда:"
+    - "&7 - Покебол"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {eat_rotten_flesh::progress}/64 плоть"
+    - "&7 - {eat_carrot::progress}/64 марковки"
+    - "&7 - {playtime:progress}/420 минут."
+  type: "COOKED_PORKCHOP"
+
+rewards:
+  - /pocketmob give {player} friend_ball"
+
+options:
+  category: "pokemons"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 10080
+  requires:
+    - "pokemons1.yml"
+  sort-order: 2
