@@ -7,7 +7,7 @@ tasks:
   mobkilling_zombie:
     type: "mobkillingcertain"
     amount: 32                            
-    mob: villager                           
+    mob: VILLAGER                           
 
   playtime:
     type: "playtime"
@@ -42,5 +42,5 @@ options:
     enabled: true
     time: 10080
   requires:
-    - "pokemons3.yml"
+    - "pokemons3"
   sort-order: 4
