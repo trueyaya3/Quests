@@ -12,7 +12,7 @@ tasks:
   mobkilling_wither:
     type: "mobkillingcertain"
     amount: 1                            
-    mob: wither                           
+    mob: WITHER                           
 
   playtime:
     type: "playtime"
@@ -50,5 +50,5 @@ options:
     enabled: true
     time: 10080
   requires:
-    - "pokemons4.yml"
+    - "pokemons4"
   sort-order: 5
