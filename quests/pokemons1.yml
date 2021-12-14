@@ -33,5 +33,4 @@ options:
   cooldown:
     enabled: true
     time: 10080
-  requires:
   sort-order: 1
