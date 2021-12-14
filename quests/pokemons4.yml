@@ -1,0 +1,46 @@
+tasks:
+  eat_bread:
+    type: "consume"
+    amount: 64
+    item: BREAD  
+
+mobkilling_zombie:
+  type: "mobkillingcertain"
+  amount: 32                            
+  mob: villager                           
+
+  playtime:
+    type: "playtime"
+    minutes: 420      
+display:
+  name: "&fЖителей"
+  lore-normal:
+    - ""
+    - "&7Требования:"
+    - "&7 - Употребить 64 хлеба"
+    - "&7 - Убить 32 жителя "
+    - "&7 - Пробыть в регионе 7 чаcов."
+    - "&eПовторяемый"
+    - ""
+    - "&7Награда:"
+    - "&7 - Покебол"
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {eat_bread::progress}/64 хлеба"
+    - "&7 - {mobkilling_zombie::progress}/32 жителя"
+    - "&7 - {playtime:progress}/420 минут."
+  type: "BREAD"
+
+rewards:
+  - /pocketmob give {player} villager_ball"
+
+options:
+  category: "pokemons"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 10080
+  requires:
+    - "pokemons2.yml"
+  sort-order: 3
