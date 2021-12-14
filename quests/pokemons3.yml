@@ -7,7 +7,7 @@ tasks:
   mobkilling_zombie:
     type: "mobkillingcertain"
     amount: 32                            
-    mob: zombie                           
+    mob: ZOMBIE                           
 
   playtime:
     type: "playtime"
@@ -42,5 +42,5 @@ options:
     enabled: true
     time: 10080
   requires:
-    - "pokemons2.yml"
+    - "pokemons2"
   sort-order: 3
