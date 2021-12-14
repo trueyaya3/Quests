@@ -33,7 +33,7 @@ display:
   type: "ROTTEN_FLESH"
 
 rewards:
-  - /pocketmob give {player} friend_ball"
+  - /pocketmob give {player} monster_ball"
 
 options:
   category: "pokemons"
@@ -42,5 +42,5 @@ options:
     enabled: true
     time: 10080
   requires:
-    - "pokemons1.yml"
-  sort-order: 2
+    - "pokemons2.yml"
+  sort-order: 3
