@@ -41,7 +41,7 @@ display:
   type: "GOLDEN_CARROT"
 
 rewards:
-  - /pocketmob give {player} master_ball"
+  - pocketmob give {player} master_ball"
 
 options:
   category: "pokemons"
