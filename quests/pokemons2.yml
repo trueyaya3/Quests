@@ -2,7 +2,7 @@ tasks:
   eat_rotten_flesh:
     type: "consume"
     amount: 64
-    item: ROTTNEN_FLESH  
+    item: ROTTEN_FLESH  
   eat_carrot:
     type: "consume"
     amount: 64
@@ -28,7 +28,7 @@ display:
     - "&7 - {eat_rotten_flesh::progress}/64 плоть"
     - "&7 - {eat_carrot::progress}/64 марковки"
     - "&7 - {playtime:progress}/420 минут."
-  type: "COOKED_PORKCHOP"
+  type: "BONE"
 
 rewards:
   - /pocketmob give {player} friend_ball"
