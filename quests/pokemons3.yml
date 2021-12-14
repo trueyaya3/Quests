@@ -13,7 +13,7 @@ tasks:
     type: "playtime"
     minutes: 420      
 display:
-  name: "&fПитомцев"
+  name: "&fМонстров"
   lore-normal:
     - ""
     - "&7Требования:"
