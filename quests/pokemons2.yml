@@ -31,7 +31,7 @@ display:
   type: "BONE"
 
 rewards:
-  - pocketmob give {player} friend_ball"
+  - "pocketmob give {player} friend_ball"
 
 options:
   category: "pokemons"
