@@ -34,9 +34,9 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {eat_bread::progress}/64 хлеба"
-    - "&7 - {eat_golden_apple::progress}/1 яюлоко"
-    - "&7 - {mobkilling_wither::progress}/32 жителя"
+    - "&7 - {eat_bread:progress}/64 хлеба"
+    - "&7 - {eat_golden_apple:progress}/1 яюлоко"
+    - "&7 - {mobkilling_wither:progress}/32 жителя"
     - "&7 - {playtime:progress}/420 минут."
   type: "GOLDEN_CARROT"
 
