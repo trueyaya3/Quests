@@ -25,8 +25,8 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {eat_rotten_flesh::progress}/64 плоть"
-    - "&7 - {eat_carrot::progress}/64 морковки"
+    - "&7 - {eat_rotten_flesh:progress}/64 плоть"
+    - "&7 - {eat_carrot:progress}/64 морковки"
     - "&7 - {playtime:progress}/420 минут."
   type: "BONE"
 
