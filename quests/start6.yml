@@ -26,7 +26,6 @@ rewards:
 
 options:
   category: "start"
-  permission-required: true  
   requires:
     - "start5"
   repeatable: false
