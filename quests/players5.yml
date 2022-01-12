@@ -6,7 +6,7 @@ tasks:
    
   ENCHANTED_GOLDEN_APPLE:
     type: "consume"
-    amount: 3
+    amount: 1
     item: ENCHANTED_GOLDEN_APPLE 
   playtime:
     type: "playtime"
@@ -20,7 +20,7 @@ display:
     - ""
     - "&7Требования:"
     - "&7 - Сделать один горшок"
-    - "&7 - Употребить 3 зачарованных яблок"
+    - "&7 - Употребить 1 зачарованное яблоко"
     - "&7 - Пробыть в регионе 7 чаcов."
     - "&7 - Набрать много опыта."
     - "&eПовторяемый"
@@ -31,7 +31,7 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - {FLOWER_POT:progress}/1 горшок."
-    - "&7 - {ENCHANTED_GOLDEN_APPLE:progress}/3 яблок."
+    - "&7 - {ENCHANTED_GOLDEN_APPLE:progress}/1 яблок."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - {expearn:progress}/5000 опыта."
   type: "FLOWER_POT"
