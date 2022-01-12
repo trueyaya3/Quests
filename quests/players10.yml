@@ -2,7 +2,7 @@ tasks:
 
   enchanting:
     type: "enchanting"
-    amount: 20                             # amount of items enchanted
+    amount: 5                             # amount of items enchanted
    
   EMERALD_ORE:
     type: "blockbreakcertain"
@@ -17,13 +17,13 @@ tasks:
     amount: 5                           
     data: 0                               
     remove-items-when-complete: true    
-  ELDER_GUARDIAN:
-    type: "mobkillingcertain"
-    amount: 1
-    mob: ELDER_GUARDIAN
+#  ELDER_GUARDIAN:
+#    type: "mobkillingcertain"
+#    amount: 1
+#    mob: ELDER_GUARDIAN
   CREEPER:
     type: "mobkillingcertain"
-    amount: 100
+    amount: 10
     mob: CREEPER      
   GOLDEN_CARROT:
     type: "consume"
@@ -41,13 +41,13 @@ display:
     - ""
     - "&7Требования:"
     - "&7 - Собрать 5 тотемов в инвенторе "
-    - "&7 - Убить 100 криперов"
+    - "&7 - Убить 10 криперов"
     - "&7 - Убить древнего стража"
     - "&7 - Употребить 32 золотую марковку"
-    - "&7 - Зачаровать 20 раз"
+    - "&7 - Зачаровать 5 раз"
     - "&7 - Пробыть в регионе 7 чаcов."
     - "&7 - Набрать опыта."
-    - "&7 - Сломать 3 блока изумрудной руды в камне."
+#    - "&7 - Сломать 3 блока изумрудной руды в камне."
     - ""
     - "&7Награда:"
     - "&7 - Крафт 5ти тотемов в один"
@@ -55,13 +55,13 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - 5 тотемов в инвентаре."
-    - "&7 - {ELDER_GUARDIAN:progress}/1 древний страж."
+#    - "&7 - {ELDER_GUARDIAN:progress}/1 древний страж."
     - "&7 - {CREEPER:progress}/100 криперов."
     - "&7 - {GOLDEN_CARROT:progress}/32 марковок."
-    - "&7 - {enchanting:progress}/20 зачарований."
+    - "&7 - {enchanting:progress}/5 зачарований."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - {expearn:progress}/5000 опыта."
-    - "&7 - {EMERALD_ORE:progress}/3 блока изумрудной руды в камне."
+#    - "&7 - {EMERALD_ORE:progress}/3 блока изумрудной руды в камне."
     
   type: "TOTEM_OF_UNDYING"
 
@@ -70,7 +70,7 @@ rewards:
 
 options:
   category: "players"
-  repeatable: false
+  repeatable: true
   requires:
     - "players9"
   sort-order: 10
