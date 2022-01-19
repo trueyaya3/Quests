@@ -9,11 +9,6 @@ tasks:
     amount: 1
     item: GOLDEN_APPLE  
 
-  mobkilling_wither:
-    type: "mobkillingcertain"
-    amount: 1                            
-    mob: WITHER                           
-
   playtime:
     type: "playtime"
     minutes: 420 
@@ -24,9 +19,8 @@ display:
     - ""
     - "&7Требования:"
     - "&7 - Употребить 64 золотой марковки"
-    - "&7 - Употребить зачарованное яблоко"
-    - "&7 - Убить визера"
-    - "&7 - Пробыть в регионе 7 чаcов."
+    - "&7 - Употребить золотое яблоко"
+    - "&7 - Пробыть в регионе 10 чаcов."
     - "&eПовторяемый"
     - ""
     - "&7Награда:"
@@ -34,10 +28,9 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {eat_bread:progress}/64 хлеба"
-    - "&7 - {eat_golden_apple:progress}/1 яюлоко"
-    - "&7 - {mobkilling_wither:progress}/32 жителя"
-    - "&7 - {playtime:progress}/420 минут."
+    - "&7 - {eat_bread:progress}/64 марковки"
+    - "&7 - {eat_golden_apple:progress}/1 яблоко"
+    - "&7 - {playtime:progress}/600 минут."
   type: "GOLDEN_CARROT"
 
 rewards:
