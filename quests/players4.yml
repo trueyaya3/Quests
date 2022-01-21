@@ -47,7 +47,7 @@ display:
     - "&7 - {eat2:progress}/1 яблок."
     - "&7 - {playtime:progress}/420 минут."
     - "&7 - {expearn:progress}/10841 опыта."
-  type: "Bowl"
+  type: "Book"
 
 rewards:
   - "ei give {player} book_of_slowness"
