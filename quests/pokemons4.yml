@@ -6,7 +6,7 @@ tasks:
 
   mobkilling_zombie:
     type: "mobkillingcertain"
-    amount: 32                            
+    amount: 5                            
     mob: VILLAGER                           
 
   playtime:
