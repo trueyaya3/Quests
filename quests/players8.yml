@@ -20,7 +20,7 @@ display:
   type: "EXPERIENCE_BOTTLE"
 
 rewards:
-  - "experience add {playe} 100 points"
+  - "experience add {player} 100 points"
 
 options:
   category: "players"
