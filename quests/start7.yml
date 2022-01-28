@@ -2,7 +2,7 @@ tasks:
 
   playtime:
     type: "playtime"
-    minutes: 4800
+    minutes: 6000
 
 display:
   name: "&fЯ тут олд"
@@ -17,7 +17,7 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {playtime:progress}/4800 минут."
+    - "&7 - {playtime:progress}/6000 минут."
   type: "DIAMOND"
 
 rewards:
