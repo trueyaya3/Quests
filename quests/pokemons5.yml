@@ -11,7 +11,7 @@ tasks:
 
   playtime:
     type: "playtime"
-    minutes: 420 
+    minutes: 600 
 
 display:
   name: "&fСупербол"
