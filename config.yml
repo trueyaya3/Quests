@@ -42,10 +42,10 @@ categories:
       lore:
         - '&7Невозобновляемый квест'
       type: "IRON_SWORD"
-  kills:
-    display:
-      name: "&cУбийца"
-      type: "NETHERITE_SWORD"
+#  kills:
+#    display:
+#      name: "&cУбийца"
+#      type: "NETHERITE_SWORD"
   end:
     display:
       name: "&5Начало конца"
