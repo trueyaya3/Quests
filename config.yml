@@ -36,12 +36,12 @@ categories:
       name: "&fПервые шаги"
       lore:
       type: "LEATHER_BOOTS"
-  pvp:
-    display:
-      name: "&cНасилие"
-      lore:
-        - '&7Невозобновляемый квест'
-      type: "IRON_SWORD"
+#  pvp:
+#    display:
+#      name: "&cНасилие"
+#      lore:
+#        - '&7Невозобновляемый квест'
+#      type: "IRON_SWORD"
 #  kills:
 #    display:
 #      name: "&cУбийца"
