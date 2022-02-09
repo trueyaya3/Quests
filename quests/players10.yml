@@ -15,7 +15,6 @@ tasks:
     type: "inventory"
     item: TOTEM_OF_UNDYING                        
     amount: 5                           
-    data: 0                               
     remove-items-when-complete: true    
 #  ELDER_GUARDIAN:
 #    type: "mobkillingcertain"
@@ -56,7 +55,7 @@ display:
     - "&7Прогресс:"
     - "&7 - 5 тотемов в инвентаре."
 #    - "&7 - {ELDER_GUARDIAN:progress}/1 древний страж."
-    - "&7 - {CREEPER:progress}/100 криперов."
+    - "&7 - {CREEPER:progress}/10 криперов."
     - "&7 - {GOLDEN_CARROT:progress}/32 марковок."
     - "&7 - {enchanting:progress}/5 зачарований."
     - "&7 - {playtime:progress}/420 минут."
