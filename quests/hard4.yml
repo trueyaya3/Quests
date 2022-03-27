@@ -24,7 +24,7 @@ display:
     - "&7Прогресс:"
     - "&7 - {expearntask:progress}/358470 опыта"
     - "&7 - {mobkillingguardiantask:progress}/1500 разбойников"
-  type: "SPONGE"
+  type: "SKELETON_SKULL"
 
 rewards:
   - "addbalance {player} 500"
