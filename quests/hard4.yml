@@ -5,7 +5,7 @@ tasks:
   mobkillingguardiantask:
     type: "mobkillingcertain"
     amount: 1500
-    mob: Pillager
+    mob: PILLAGER
 display:
   name: "&fАванпост"
   lore-normal:
