@@ -17,7 +17,7 @@ display:
     - "&7 - Убейте 1500 разбойников"
     - ""
     - "&7Награда:"
-    - "&7 - Меч"
+    - "&7 - Череп"
     
   lore-started:
     - ""
@@ -28,7 +28,7 @@ display:
 
 rewards:
   - "addbalance {player} 500"
-  - "give {player} netherite_sword{Unbreakable:1,display:{Name:'[{\"text\":\"Проклятый меч\",\"italic\":false,\"color\":\"yellow\"}]'},Enchantments:[{id:vanishing_curse,lvl:1},{id:looting,lvl:4},{id:sharpness,lvl:5},{id:sweeping,lvl:3}]} 1"
+  - "ei give {player} cursed_skull"
 options:
   category: "hard"
   requires:
