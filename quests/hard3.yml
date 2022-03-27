@@ -20,7 +20,7 @@ display:
     - "&7Требования:"
     - "&7 - Соберите 300 уровней."
     - "&7 - Соберите в инвенторе стак губок"
-    - "&7 - Убейте 2500 морских стражей"
+    - "&7 - Убейте 1500 морских стражей"
     - ""
     - "&7Награда:"
     - "&7 - 1500 Gems."
@@ -38,8 +38,8 @@ display:
 rewards:
   - "addbalance {player} 500"
   - "give {player} elytra{Unbreakable:1,display:{Name:'[{\"text\":\"Острые Крылья\",\"italic\":false}]'},Enchantments:[{id:thorns,lvl:7}]} 1"
-  - "give {player} minecraft:trident{display:{Name:'[{\"text\":\"Что ты знаешь про боль?\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Награда за квест из серии `Тяжелые квесты`\",\"italic\":true,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Все квесты можно найти по команде \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"/quest\",\"color\":\"dark_aqua\"}]']},Enchantments:[]} 1"
-  - "give {player} netherite_chestplate{Unbreakable:1,display:{Name:'[{\"text\":\"Острая Броня\",\"italic\":false}]'},Enchantments:[{id:thorns,lvl:5}]} 1"
+  - "give {player} minecraft:trident{display:{Name:'[{\"text\":\"Что ты знаешь про боль?\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"Награда за квест из серии `Тяжелые квесты`\",\"italic\":true,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Все квесты можно найти по команде \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"/quest\",\"color\":\"dark_aqua\"}]']},Enchantments:[]} 1"
+  - "give {player} netherite_chestplate{Unbreakable:1,display:{Name:'[{\"text\":\"Острая Броня\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]'},Enchantments:[{id:thorns,lvl:5}]} 1"
 options:
   category: "hard"
   requires:
