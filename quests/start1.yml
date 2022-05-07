@@ -4,6 +4,9 @@ tasks:
     distance: 500
     worlds:
       - "world"
+  permission:
+    type: "permission"
+    permission: "leaved_rookie_city"      
 display:
   name: "&fПрячемся I"
   lore-normal:
@@ -11,6 +14,7 @@ display:
     - ""
     - "&7Требования:"
     - "&7 - Пробежать 500 блоков."
+    - "&7 - Покинуть город для новичков навсегда через команду &b/start."
     - ""
     - "&7Награда:"
     - "&7 - 20 Gems."
