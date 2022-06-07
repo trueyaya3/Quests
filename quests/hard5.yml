@@ -1,0 +1,41 @@
+tasks:
+  mobkillingguardiantask:
+    type: "mobkillingcertain"
+    amount: 500
+    mob: ENDERMEN
+    
+  permission:
+    type: "permission"
+    permission: "boss_trueayaya3_not_killed"
+    
+display:
+  name: "&fНайти админа. Часть 1"
+  lore-normal:
+    - "&cУбить 500 ендерменов"
+    - "&cчто бы получить тп в арену боссов"
+    - "&cгде можно призвать админа"
+    - ""
+    - "&7Требования:"
+    - "&7 - Убейте 500 ендерменов"
+    - ""
+    - "&7Награда:"
+    - "&7 - тп в арену боссов"
+    
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {mobkillingguardiantask:progress}/500 ендерменов"
+  type: "enderperl"
+
+rewards:
+  - "ei give {player} boss_tp 16"
+options:
+  category: "hard"
+  requires:
+    - "hard4"
+  sort-order: 5
+
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 600
