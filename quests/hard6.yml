@@ -2,7 +2,7 @@ tasks:
   mobkillingguardiantask:
     type: "mobkillingcertain"
     amount: 500
-    mob: ENDERMEN
+    mob: ENDERMAN
     
     
 display:
