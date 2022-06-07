@@ -5,7 +5,6 @@ tasks:
     mob: ENDERMEN
     
 
-  permission-required: true    
 display:
   name: "&fНайти админа. Часть 1"
   lore-normal:
@@ -37,3 +36,4 @@ options:
   cooldown:
     enabled: true
     time: 600
+  permission-required: true    
