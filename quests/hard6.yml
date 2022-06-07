@@ -4,8 +4,6 @@ tasks:
     amount: 500
     mob: ENDERMEN
     
-  permission-required: true    
-
     
 display:
   name: "&fНайти админа. Часть 2"
@@ -32,5 +30,5 @@ options:
   requires:
     - "hard5"
   sort-order: 6
-
+  permission-required: true   
   repeatable: false
