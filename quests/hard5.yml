@@ -4,10 +4,7 @@ tasks:
     amount: 500
     mob: ENDERMEN
     
-#  permission:
-#    type: "permission"
-#    permission: "boss_trueayaya3_not_killed"
-    
+
   permission-required: true    
 display:
   name: "&fНайти админа. Часть 1"
