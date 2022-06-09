@@ -3,7 +3,6 @@ tasks:
     type: "inventory"
     item: ENCHANTED_GOLDEN_APPLE
     amount: 64
-    data: 0 
     remove-items-when-complete: false
     worlds:
      - "world"
@@ -15,7 +14,7 @@ display:
     - "&cПредметов в игре"
     - ""
     - "&7Требования:"
-    - "&7 - Собрать стак ЗАЧАРОВАННЫХ золотых яблок"
+    - "&7 - Собрать стак ЗАЧАРОВАННЫХ золотых яблок в мире"
     - ""
     - "&7Награда:"
     - "&7 - 700 Gems."
