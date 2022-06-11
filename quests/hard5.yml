@@ -1,19 +1,19 @@
 tasks:
   mobkillingguardiantask:
     type: "mobkillingcertain"
-    amount: 500
+    amount: 2000
     mob: ENDERMAN
     
 
 display:
   name: "&fНайти админа. Часть 1"
   lore-normal:
-    - "&cУбить 500 ендерменов"
+    - "&cУбить 2000 ендерменов"
     - "&cчто бы получить тп в арену боссов"
     - "&cгде можно призвать админа"
     - ""
     - "&7Требования:"
-    - "&7 - Убейте 500 ендерменов"
+    - "&7 - Убейте 2000 ендерменов"
     - ""
     - "&7Награда:"
     - "&7 - тп в арену боссов"
@@ -21,7 +21,7 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {mobkillingguardiantask:progress}/500 ендерменов"
+    - "&7 - {mobkillingguardiantask:progress}/2000 ендерменов"
   type: "enderperl"
 
 rewards:
