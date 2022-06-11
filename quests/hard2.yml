@@ -1,21 +1,21 @@
 tasks:
   miningobsidiantask:
     type: "blockbreakcertain"
-    amount: 5000 
+    amount: 10000 
     block: OBSIDIAN
     reverse-if-placed: true
     check-coreprotect: true
-    check-coreprotect-time: 3600 
+    check-coreprotect-time: 10000 
     worlds:
       - "world_the_end"
 display:
   name: "&fГде много абсидиана?"
   lore-normal:
-    - "&cСломайте 5000 блоков обсидиана *"
+    - "&cСломайте 10000 блоков обсидиана *"
     - "&cИли свою кирку"
     - ""
     - "&7Требования:"
-    - "&7 - Сломать 5000 блоков обсидиана"
+    - "&7 - Сломать 10000 блоков обсидиана"
     - "&7 - Не умереть от старости"
     - "&7 - Выполнить в енде"
     - ""
@@ -27,7 +27,7 @@ display:
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {miningobsidiantask:progress}/5000 обсидиана"
+    - "&7 - {miningobsidiantask:progress}/10000 обсидиана"
   type: "OBSIDIAN"
 
 rewards:
