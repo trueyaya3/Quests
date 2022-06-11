@@ -4,7 +4,7 @@ tasks:
     amount: 358470
   mobkillingguardiantask:
     type: "mobkillingcertain"
-    amount: 5000
+    amount: 20000
     mob: PILLAGER
 display:
   name: "&fАванпост"
@@ -14,7 +14,7 @@ display:
     - ""
     - "&7Требования:"
     - "&7 - Соберите 300 уровней."
-    - "&7 - Убейте 5000 разбойников"
+    - "&7 - Убейте 20000 разбойников"
     - ""
     - "&7Награда:"
     - "&7 - Череп"
@@ -23,7 +23,7 @@ display:
     - ""
     - "&7Прогресс:"
     - "&7 - {expearntask:progress}/358470 опыта"
-    - "&7 - {mobkillingguardiantask:progress}/5000 разбойников"
+    - "&7 - {mobkillingguardiantask:progress}/20000 разбойников"
   type: "SKELETON_SKULL"
 
 rewards:
