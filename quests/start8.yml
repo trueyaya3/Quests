@@ -82,4 +82,4 @@ options:
   requires:
     - "start7"
   repeatable: false
-  sort-order: 6
+  sort-order: 7
