@@ -1,58 +1,56 @@
 tasks:
   acacia:
     type: "blockbreakcertain"
-    amount: 500                      
-    block: ACACIA_LOG              
-    reverse-if-placed: true            
+    amount: 500
+    block: ACACIA_LOG
+    reverse-if-placed: true
     worlds:
       - "world"
   birch:
     type: "blockbreakcertain"
-    amount: 500                          
-    block: BIRCH_LOG    
-    reverse-if-placed: true          
+    amount: 500
+    block: BIRCH_LOG
+    reverse-if-placed: true
     worlds:
       - "world"
   dark_oak:
     type: "blockbreakcertain"
-    amount: 500                          
-    block: DARK_OAK_LOG    
-    reverse-if-placed: true          
+    amount: 500
+    block: DARK_OAK_LOG
+    reverse-if-placed: true
     worlds:
       - "world"
   jungle:
     type: "blockbreakcertain"
-    amount: 500                          
-    block: JUNGLE_LOG    
-    reverse-if-placed: true          
+    amount: 500
+    block: JUNGLE_LOG
+    reverse-if-placed: true
     worlds:
       - "world"
   oak:
     type: "blockbreakcertain"
-    amount: 500                          
-    block: OAK_LOG    
-    reverse-if-placed: true          
+    amount: 500
+    block: OAK_LOG
+    reverse-if-placed: true
     worlds:
       - "world"
-            
   spruce:
     type: "blockbreakcertain"
-    amount: 500                          
-    block: SPRUCE_LOG    
-    reverse-if-placed: true          
+    amount: 500
+    block: SPRUCE_LOG
+    reverse-if-placed: true
     worlds:
       - "world"
- crimson:
+  crimson:
     type: "blockbreakcertain"
-    amount: 500                          
-    block: CRIMSOM_STEM    
-    reverse-if-placed: true          
- warped:
+    amount: 500
+    block: CRIMSOM_STEM
+    reverse-if-placed: true
+  warped:
     type: "blockbreakcertain"
-    amount: 500                          
-    block: WARPED_STEM    
-    reverse-if-placed: true          
-
+    amount: 500
+    block: WARPED_STEM
+    reverse-if-placed: true
 display:
   name: "&fАвтолесоруб"
   lore-normal:
