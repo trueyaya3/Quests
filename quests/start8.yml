@@ -1,0 +1,87 @@
+tasks:
+  acacia:
+    type: "blockbreakcertain"
+    amount: 500                      
+    block: ACACIA_LOG              
+    reverse-if-placed: true            
+    worlds:
+      - "world"
+  birch:
+    type: "blockbreakcertain"
+    amount: 500                          
+    block: BIRCH_LOG    
+    reverse-if-placed: true          
+    worlds:
+      - "world"
+  dark_oak:
+    type: "blockbreakcertain"
+    amount: 500                          
+    block: DARK_OAK_LOG    
+    reverse-if-placed: true          
+    worlds:
+      - "world"
+  jungle:
+    type: "blockbreakcertain"
+    amount: 500                          
+    block: JUNGLE_LOG    
+    reverse-if-placed: true          
+    worlds:
+      - "world"
+  oak:
+    type: "blockbreakcertain"
+    amount: 500                          
+    block: OAK_LOG    
+    reverse-if-placed: true          
+    worlds:
+      - "world"
+            
+  spruce:
+    type: "blockbreakcertain"
+    amount: 500                          
+    block: SPRUCE_LOG    
+    reverse-if-placed: true          
+    worlds:
+      - "world"
+ crimson:
+    type: "blockbreakcertain"
+    amount: 500                          
+    block: CRIMSOM_STEM    
+    reverse-if-placed: true          
+ warped:
+    type: "blockbreakcertain"
+    amount: 500                          
+    block: WARPED_STEM    
+    reverse-if-placed: true          
+
+display:
+  name: "&fАвтолесоруб"
+  lore-normal:
+    - "&cПолучить возвозность срубать сразу все дерево"
+    - ""
+    - "&7Требования:"
+    - "&7 - Србить по 500 блоков каждого из типов деревьев."
+    - ""
+    - "&7Награда:"
+    - "&7 - 200 Gems."
+  lore-started:
+    - ""
+    - "&7Прогресс:"
+    - "&7 - {acacia:progress}/500 блоков акациевого бревна."
+    - "&7 - {dark_oak:progress}/500 блоков темного дуба."
+    - "&7 - {jungle:progress}/500 блоков бропического дерева."
+    - "&7 - {oak:progress}/500 блоков дуба."
+    - "&7 - {spruce:progress}/500 блоков елового дерева."
+    - "&7 - {crimson:progress}/500 блоков багрового стебля."
+    - "&7 - {warped:progress}/500 блоков искаженного стебля."
+  type: "SPRUCE_LOG"
+
+rewards:
+  - "addbalance {player} 200"
+  - "lp user {player} permission set ultimatetimber.chop true"
+
+options:
+  category: "start"
+  requires:
+    - "start7"
+  repeatable: false
+  sort-order: 6
