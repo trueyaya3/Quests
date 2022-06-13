@@ -2,7 +2,7 @@ tasks:
 
   playtime:
     type: "playtime"
-    minutes: 6000
+    minutes: 9000
 
 display:
   name: "&fЯ тут олд"
@@ -10,14 +10,14 @@ display:
     - "&cПрижится на сервере"
     - ""
     - "&7Требования:"
-    - "&7 - Пробыть в регионе 120 чаcов."
+    - "&7 - Пробыть в регионе 150 чаcов."
     - ""
     - "&7Награда:"
     - "&7 - 2000 Gems."
   lore-started:
     - ""
     - "&7Прогресс:"
-    - "&7 - {playtime:progress}/7200 минут."
+    - "&7 - {playtime:progress}/9000 минут."
   type: "DIAMOND"
 
 rewards:
