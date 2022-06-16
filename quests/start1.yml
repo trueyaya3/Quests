@@ -10,11 +10,10 @@ tasks:
 display:
   name: "&fПрячемся I"
   lore-normal:
-    - "&cПокиньте спавн"
+    - "&cПокиньте спавн и город новичков"
     - ""
     - "&7Требования:"
     - "&7 - Пробежать 500 блоков."
-    - "&7 - Покинуть город для новичков навсегда через команду &b/start."
     - ""
     - "&7Награда:"
     - "&7 - 20 Gems."
@@ -27,6 +26,7 @@ display:
 
 rewards:
   - "addbalance {player} 20"
+  - "lp user {player} permission set rookie_city_access false"
 
 options:
   category: "start"
