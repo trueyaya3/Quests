@@ -4,9 +4,6 @@ tasks:
     distance: 500
     worlds:
       - "world"
-  permission:
-    type: "permission"
-    permission: "leaved_rookie_city"      
 display:
   name: "&fПрячемся I"
   lore-normal:
