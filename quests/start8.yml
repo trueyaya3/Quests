@@ -41,11 +41,6 @@ tasks:
     reverse-if-placed: true
     worlds:
       - "world"
-  crimson:
-    type: "blockbreakcertain"
-    amount: 500
-    block: CRIMSOM_STEM
-    reverse-if-placed: true
   warped:
     type: "blockbreakcertain"
     amount: 500
@@ -69,7 +64,6 @@ display:
     - "&7 - {jungle:progress}/500 блоков бропического дерева."
     - "&7 - {oak:progress}/500 блоков дуба."
     - "&7 - {spruce:progress}/500 блоков елового дерева."
-    - "&7 - {crimson:progress}/500 блоков багрового стебля."
     - "&7 - {warped:progress}/500 блоков искаженного стебля."
   type: "SPRUCE_LOG"
 
