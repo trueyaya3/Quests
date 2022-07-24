@@ -58,8 +58,8 @@ categories:
       name: "Питомцы"
       lore:
         - '&7Квесты для старых игроков'
-        - 'Серия квестов для получения питомцев'
-      type: "EGG"
+        - '&7Серия квестов для получения питомцев'
+      type: "PANDA_SPAWN_EGG"
    permission-required: true   
 #  common:
 #    display:
