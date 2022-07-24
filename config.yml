@@ -1,51 +1,9 @@
-# | =================================================== |
-# |      Thank you for downloading and trying out       |
-# |                       Quests                        |
-# |      https://www.spigotmc.org/resources/23696/      |
-# |         https://github.com/LMBishop/Quests/         |
-# |                                                     |
-# |                         =x=                         |
-# |                                                     |
-# |              Trying to add new quests?              |
-# |                                                     |
-# |                 Go to the 'quests'                  |
-# |               subdirectory to edit the              |
-# |                        quests                       |
-# |                                                     |
-# |                 The example quests                  |
-# |              are commented to help you              |
-# |             learn how to use the plugin             |
-# |                                                     |
-# |                         =x=                         |
-# |                                                     |
-# |              Have Discord & need help?              |
-# |       Head to the GitHub page and click on the      |
-# |           Discord link, or create an issue          |
-# | =================================================== |
-
-
-# Categories are a way of grouping up quests.
-# When a player uses /quests, a menu of categories will be presented to them.
-# When a player clicks ona category, a list of quests under that category will show.
-# If categories are disabled, all quests will be shown under one big GUI.
-# Players can access specific categories by command using /quests c [category].
-# If a quest does not have a category, it will not be shown.
 categories:
   start:
     display:
       name: "&fПервые шаги"
       lore:
       type: "LEATHER_BOOTS"
-#  pvp:
-#    display:
-#      name: "&cНасилие"
-#      lore:
-#        - '&7Невозобновляемый квест'
-#      type: "IRON_SWORD"
-#  kills:
-#    display:
-#      name: "&cУбийца"
-#      type: "NETHERITE_SWORD"
   end:
     display:
       name: "&5Начало конца"
@@ -95,7 +53,14 @@ categories:
         - '&7Квесты не для новеньких игроков'
       type: "EGG"
    permission-required: true
-   
+  pets:
+   display:
+      name: "Питомцы"
+      lore:
+        - '&7Квесты для старых игроков'
+        - 'Серия квестов для получения питомцев'
+      type: "EGG"
+   permission-required: true   
 #  common:
 #    display:
 #      name: "&cРутина"
