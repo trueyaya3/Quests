@@ -24,7 +24,7 @@ display:
     - '&eНеповторимый'
     - ""
     - "&7Награда:"
-    - "&7 - Мишка"
+    - "&7 - Мишка(/pets)"
   lore-started:
     - ""
     - "&7Прогресс:"
@@ -35,8 +35,6 @@ display:
 
 rewards:
   - "ecopets give {player} bear"
-  - "give {player} minecraft:player_head{display:{SkullOwner:{Id:[I;-1439922143,-329496667,-1142832418,-807868690],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFkYmQwNDM0YzBhNTI0ZWNhYjQwMmJjNDY4Y2JiYTJhMWI2MWE3ZTlhZWNmMGQ4NTY0YjU4MzZmNjljZmQ4OCJ9fX0=\"}]}}} 1"
-  - "give {player} minecraft:player_head{display:{SkullOwner:{Id:[I;1128816369,-303939083,-1755900220,1160441483],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZmOTMzODllMTdjZTk2MjVjNWQwZTA2YTI2M2ZjMjU3ZTdhYTNkYzg3NjkxYTcxMmNiZjBmZDQxMzIzZmRmMSJ9fX0=\"}]}}} 1"
 options:
   category: "pets"
   repeatable: false
